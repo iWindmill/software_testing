@@ -13,16 +13,16 @@
 
 Горячие клавиши:
 
-- [Горячие клавиши OSX | Sublime Text](http://sublimetext.ru/documentation/hotkeys/osx). ```⌘``` + ```f2``` - Установить или снять закладку. ```f2``` - Перейти к следующей закладке. ```shift``` + ```f2``` - Перейти к предыдущей закладке.
+- [Горячие клавиши OSX Sublime Text](http://sublimetext.ru/documentation/hotkeys/osx). ```⌘``` + ```f2``` - Установить или снять закладку. ```f2``` - Перейти к следующей закладке. ```shift``` + ```f2``` - Перейти к предыдущей закладке.
 - [Slack keyboard shortcuts – Slack Help Center](https://get.slack.help/hc/en-us/articles/201374536-Slack-keyboard-shortcuts). ```⌘``` + ```K``` - Быстро перейти к форме поиска контакта.
 - [Apple Mail Keyboard Shortcuts](https://www.lifewire.com/apple-mail-keyboard-shortcuts-2260755). ```⌫``` + ```⌘``` - Удалить очередное мусорное сообщение в почте.
 
 Настройка Hugo - генератора статичных блогов:
 
-- [Hugo Goa | Hugo Themes](https://themes.gohugo.io/hugo-goa/). Простая минималистичная тема. Есть поддержка комментариев Disqus, которая впрочем нарушает этику обращения с пользовательскими данными. Почему-то не выбрал.
-- [Hugo Theme Sam | Hugo Themes ](https://themes.gohugo.io/hugo-theme-sam/). Еще одна минималистичная тема для Hugo. На случаи когда надоест бьющий в глаза белый фон.
+- [Hugo Goa Hugo Themes](https://themes.gohugo.io/hugo-goa/). Простая минималистичная тема. Есть поддержка комментариев Disqus, которая впрочем нарушает этику обращения с пользовательскими данными. Почему-то не выбрал.
+- [Hugo Theme Sam Hugo Themes ](https://themes.gohugo.io/hugo-theme-sam/). Еще одна минималистичная тема для Hugo. На случаи когда надоест бьющий в глаза белый фон.
 - [johndoe](https://themes.gohugo.io/theme/hugo-coder/). Лаконичная тема.
-- [Hugo Natrium Theme | Hugo Themes ](https://themes.gohugo.io/hugo-natrium-theme/). Из минусов - разные шрифты и размеры шрифтов для латиницы и кириллицы. Тестирование локализации для кириллицы не проводили. Белый фон бьющий в глаза.
+- [Hugo Natrium Theme Hugo Themes ](https://themes.gohugo.io/hugo-natrium-theme/). Из минусов - разные шрифты и размеры шрифтов для латиницы и кириллицы. Тестирование локализации для кириллицы не проводили. Белый фон бьющий в глаза.
 - [Using Language Identifiers (RFC 3066)](http://www.i18nguy.com/unicode/language-identifiers.html). RFC по языковым идентификаторам, когда нужно настроить тему в Hugo для русскоязычных читателей.
 
 Продуктивность на macOS:
@@ -35,8 +35,8 @@
 
 MacBook Pro в 15 дюймов:
 
-- [Apple MacBook Pro (2016) 15» with Touch Bar and Touch ID review | 49 facts in comparison](https://versus.com/en/apple-macbook-pro-2016-15-with-touch-bar-and-touch-id). MacBook 2016 года на основании 49 фактов сравнения набирает 500 points.
-- [Apple MacBook Pro (2015) 15" Intel Core i7 2.2Ghz / 16GB / 1TB review | 56 facts in comparison](https://versus.com/en/apple-macbook-pro-2015-15-intel-core-i7-2-2ghz-16gb-1tb). MacBook 2015 года на основании 56 фактов сравнения набирает 533 points.
+- [Apple MacBook Pro (2016) 15» with Touch Bar and Touch ID review 49 facts in comparison](https://versus.com/en/apple-macbook-pro-2016-15-with-touch-bar-and-touch-id). MacBook 2016 года на основании 49 фактов сравнения набирает 500 points.
+- [Apple MacBook Pro (2015) 15" Intel Core i7 2.2Ghz / 16GB / 1TB review 56 facts in comparison](https://versus.com/en/apple-macbook-pro-2015-15-intel-core-i7-2-2ghz-16gb-1tb). MacBook 2015 года на основании 56 фактов сравнения набирает 533 points.
 - [The MacBook Pro is a lie - The Verge](https://www.theverge.com/2016/11/7/13548052/the-macbook-pro-lie). MacBook 2016 не для профессионалов, роскошный и дорогой ноутбук.
 - [Michael Tsai - Blog - New MacBook Pros and the State of the Mac](https://mjtsai.com/blog/2016/10/27/new-macbook-pros-and-the-state-of-the-mac/). Подборка 240 различных мнений о MacBook 2016.
 - [Mobile-review.com Неделя с MacBook Pro 2016 года - неоднозначная Pro-шка](https://www.mobile-review.com/articles/2016/apple-macbook-pro-2016-2.shtml). Толковая публикация о сути MacBook Pro 2016: «Как ни странно, но я не вижу смысла менять свой ноутбук 2014 года на модель 2016-го. Это лишено всяческого смысла, только если вы не привыкли сорить деньгами и ежегодно меняете свои устройства. Но зачем это делать? Меня очень расстраивает направление в котором стали “улучшать” MacBook, можно еще больше уменьшить толщину корпуса, что сделает клавиши еще тоньше. Или вовсе заменить их на сенсорные, что превратит в будущем ноутбук в имиджевую машинку. Но удобства обычных клавиш, с хорошим ходом, не вернет».
