@@ -27,7 +27,6 @@
 
 * [Задачи и этапы тест-дизайна](2018-02-14-tasks-and-stages-of-the-test-design.md)
 * [Тест-кейс: понятие и виды](2017-10-09-test-case.md)
-* [Выделение классов эквивалентности входных данных](2018-02-16-selection-of-equivalence-classes.md)
 * [Классы эквивалентности и анализ граничных значений](2016-09-04-equivalence-classes-and-boundary-value-analysis.md)
 * [Таблицы сущностей и таблицы оптимальных проверок](2018-02-19-entity-tables-and-optimal-test-tables.md)
 
