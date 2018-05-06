@@ -8,7 +8,7 @@
 
 > ![](https://lh3.googleusercontent.com/FV_BvGcARRzB8eZphORP-LsJcduZUoixNbMlq1B55JDwt7WRhIVHU3ZFVhJ-2aLvWl1oj71DnuwOi0YfjYtizckLtfSwK4pfhjV3DYw3fjclJFZhc4sryLNoapH2VLOpcqXDNepkRKwzbAf6ku1pZBrxp0m3Psgez6ztKmJFVftOdsQHGQghOb0A-vCHXNi1mD1bOd3j1n2sXPrupccXJ_Dq-llGph11eSMfxpDoQWfGLBBDb8dPXlSec_Gsa0o4vuKmwWwBF01Qcya4cQoEbILOcr6OmgFB29DaOxtih8Dzn_G-KZQyD1Oe11H--LF2pcVhiZHY9TS6qgT-LRPDhV57tCSeWSdrpJEGCoECBn3vrCg_PsoxtsBehSeVAKFDTeAVkzuJdzy_0dVpsB45O0gnl9WbSXrSdRT3J11GRTI9y7deT06La8VxQM6CaNLpfGHNLJgAXfi1J-QSLwrDSh1iagwwH3v1LoawQfi4IFnlKLMi-PNTLEckbYH_8Xfft-7zTTIoISCxvzMwgkc_pzB4wzlfpvmmd8oq2Z2UNMnjzaTr5mdcXCiQIGteIjfn8jc9eT7OW4rydVQOoWrUwPli4ghT6xHjtPOhnWit8tBu4RXsCXRDjju5XYmHrEMHL9Tdiz-tYrPAtq-YI5OTmTv8cE-NTN0V=w700-h406-no)
 >
-> Что такое тест-план? Если вы спросите тестировщиков разных компаний о том, что идет под именем "тест-план" в их компа- ниях, то ответ часто будет варьироваться:
+> Что такое тест-план? Если вы спросите тестировщиков разных компаний о том, что идет под именем "тест-план" в их компаниях, то ответ часто будет варьироваться:
 >
 > - иногда тест-планом называют тест-комплект,
 > - в других случаях тест-планом называют пару мыслей о тестировании, набросанных на полях журнала "Playboy",
