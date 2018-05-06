@@ -52,6 +52,10 @@
 
 > Smoke test. See Also: build verification test, intake test. Synonyms: confidence test, sanity test. A subset of all defined/planned test cases that cover the main functionality of a component or system, to ascertaining that the most crucial functions of a program work, but not bothering with finer details.
 
+### «Уроки изученные в тестировании», Канер, Бах
+
+Смок-тест. Это тип регрессионного тестирования выполняется с целью проверить, готов ли новый билд к тестированию. Смок-тест часто автоматизируется и стандартизируется. Он проверяет вещи, которые должны работать, и если они не функционируют, то мы подозреваем, что программа была создана полностью некорректно.
+
 Не обнаружил упоминания "smoke", "sanity", "санит", "прием", "дымов":
 
 1. IEEE 610.12-1990 IEEE Standard Glossary of Software Engineering Technology
