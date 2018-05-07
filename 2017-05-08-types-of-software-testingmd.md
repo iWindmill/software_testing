@@ -8,55 +8,49 @@
 
 Прошелся по доступной литературе и составил конспект, который содержит различные классификации видов тестирования без углубления в подробности по каждому виду тестирования. То есть упора на терминалогический аппарат не будет. Упор на терминологию для каждого вида тестирования буду публиковать в отдельных конспектах.
 
-«Тестирование Дот Ком, или Пособие по жестокому обращению с багами в интернет-стартапах», **Роман Савин**, Москва, Дело, 2007. 104 страница:
+### «Тестирование Дот Ком, или Пособие по жестокому обращению с багами в интернет-стартапах»
 
-> 1. По знанию внутренностей системы:
->  - черный ящик (black box testing);
->  - серый ящик (grey box testing);
->  - белый ящик (white box testing).
-> 
-> 2. По объекту тестирования:
->  - функциональное тестирование (functional testing);
->  - тестирование интерфейса пользователя (UI testing);
->  - тестирование локализации (localization testing);
->  - тестирование скорости и надежности (load/stress/perfor- mance testing);
->  - тестирование безопасности (security testing);
->  - тестирование опыта пользователя (usability testing);
->  - тестирование совместимости (compatibility testing).
-> 
-> 3. По субъекту тестирования:
->  - альфа-тестировщик (alpha tester);
->  - бета-тестировщик (beta tester).
-> 
-> 4. По времени проведения тестирования до передачи пользователю:
->  - альфа-тестирование (alpha- testing);
->  - тест приемки (smoke test, sanity test или confidence test);
->  - тестирование новых функциональностей (new feature testing);
->  - регрессивное тестирование (regression testing);
->  - тест сдачи (acceptance or certification test);
-> 
-> 5. По времени проведения тестирования после передачи пользователю
->  - бета-тестирование (beta testing).
-> 
-> 6. Покритерию "позитивности" сценариев:
->  - позитивное тестирование (positive testing);
->  - негативное тестирование (negative testing).
-> 
-> 7. По степени изолированности тестируемых компонентов:
->  - компонентное тестирование (component testing);
->  - интеграционное тестирование (integration testing);
->  - системное (или энд-ту-энд) тестирование (system or end-
+Роман Савин, Москва, Дело, 2007. 104 страница:
+
+1. По знанию внутренностей системы:
+ - черный ящик (black box testing);
+ - серый ящик (grey box testing);
+ - белый ящик (white box testing).
+2. По объекту тестирования:
+ - функциональное тестирование (functional testing);
+ - тестирование интерфейса пользователя (UI testing);
+ - тестирование локализации (localization testing);
+ - тестирование скорости и надежности (load/stress/perfor- mance testing);
+ - тестирование безопасности (security testing);
+ - тестирование опыта пользователя (usability testing);
+ - тестирование совместимости (compatibility testing).
+3. По субъекту тестирования:
+ - альфа-тестировщик (alpha tester);
+ - бета-тестировщик (beta tester).
+4. По времени проведения тестирования до передачи пользователю:
+ - альфа-тестирование (alpha- testing);
+ - тест приемки (smoke test, sanity test или confidence test);
+ - тестирование новых функциональностей (new feature testing);
+ - регрессивное тестирование (regression testing);
+ - тест сдачи (acceptance or certification test);
+5. По времени проведения тестирования после передачи пользователю
+ - бета-тестирование (beta testing).
+6. Покритерию "позитивности" сценариев:
+ - позитивное тестирование (positive testing);
+ - негативное тестирование (negative testing).
+7. По степени изолированности тестируемых компонентов:
+ - компонентное тестирование (component testing);
+ - интеграционное тестирование (integration testing);
+ - системное (или энд-ту-энд) тестирование (system or end-
 to-end testing).
-> 
-> 8. По степени автоматизированности тестирования:
->  - ручное тестирование (manual testing);
->  - автоматизированное тестирование (automated testing);
->  - смешанное/полуавтоматизированное тестирование (semi
+8. По степени автоматизированности тестирования:
+ - ручное тестирование (manual testing);
+ - автоматизированное тестирование (automated testing);
+ - смешанное/полуавтоматизированное тестирование (semi
 automated testing).
-> 
-> 9. По степени подготовки к тестированию:
->  - тестирование по документации (formal/documented testing);
->  - эд хок-тестирование (ad hoc testing).
+9. По степени подготовки к тестированию:
+ - тестирование по документации (formal/documented testing);
+ - эд хок-тестирование (ad hoc testing).
 
 IEEE Standard for Software and System Test Documentation, **IEEE Std 829-2008**. 90-91 страницы:
 
@@ -115,6 +109,40 @@ IEEE Standard for Software and System Test Documentation, **IEEE Std 829-2008**.
 > **3.7 Выбор и комбинация различных техник (Selecting and combining techniques)**
 > 
 > - Функциональное и структурное (Functional and structural). Техники тестирования, строящиеся на основе спецификаций или кода часто называют функциональными или структурными, соответственно. Оба подхода не должны противопоставляться, но дополнять друг друга. 
+
+### «Основы инженерии качества программных систем», Филипп Андон, Галина Коваль, Татьяна Коротун, Екатерина Лаврищева, В. Суслов
+
+Академпериодика, 2007. 317/679 страница:
+
+Методы, основанные на спецификации (или методы функционального тестирования)
+
+Эти методы широко известны и подробно описаны в литературе [2, 8, 9, 10, 22–29]:
+- "Искусство тестирования программ", Гленфорд Майерс, 1982.
+- "Тестирование программного обеспечения", Канер С., Фолк Д., Нгуен Е., 2000.
+- "Software Unit Test Coverage and Adequacy", Zhu H., May J.H.R., 1997.
+- "Effective Methods for Software Testing", Perry W., 1995.
+- "An Operational Approach to Requirements Specification for Embedded Systems", Zave P., 1982.
+- Perry W. Effective Methods for Software Testing, John Wiley & Sons.- 1995.
+- Zave P. An Operational Approach to Requirements Specification for Embedded Systems // IEEE Trans. Software Eng..- 1982. -V.8. - No 3.
+- Weyuker E.J., Ostrand T.J. Theories of program testing and the application of revealing sub- domains // IEEE Trans.Soft.Eng.- 1980.-V.6. - No.3. - P. 236-246.
+- Richardson D., Clarke L. A partition analysis method to increase program reliability. // in proc. of yet 5th international Conf. Soft. Eng., San Diego, CA, mar.9-12, 1981, -P. 244-253.
+- Software unit test coverage and adequacy. / H.Zhu., P.A.V.Hall, J.H.R.May // ACM Computing Surveys.-1997.- V.29.-N.4. -P. 336-427.
+- Software testing based on formal specifications: a theory and tool. / G.Bernot., M.C.Gaudel, B.Marre // Software Engineering Journal.-1991.- November. – P. 287-405.
+- Dick J., Faivre A. Automating the generation and sequencing of test cases from model-based specification. // FME’93: Industrial-Strenght formal method, LNCS 670, Springer Vertag, 1993. -P. 268-284.
+- Horcher H., Peleska J. Using formal specifications to support software testing. // Software Quality Journal.-1995.- No 4. – P. 309-327.
+- Липаев В.В. Тестирование программ. -М.: Радио и связь, 1986. -296 с.
+
+В традиционной классификации их относят к методам «черного ящика». Они применяются для тестирования внешних и внутренних функций программы и предполагают наличие спецификации (формальной или не формальной), используемой в качестве эталона. Отличаются между собой подходами к выбору тестовых данных из множества входов (входного пространства) функций.
+
+К основным методам функционального тестирования относятся:
+
+- таблицы решений;
+- функциональные диаграммы;
+- эквивалентное разбиение;
+- анализ граничных значений;
+- разбиение входного пространства на категории;
+- тестирование переходов между состояниями;
+- тестирование по формальным спецификациям.
 
 Еще предстоит изучить следующие источники для пополнения конспекта:
 > 

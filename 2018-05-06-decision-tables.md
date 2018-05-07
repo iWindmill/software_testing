@@ -16,37 +16,9 @@
 
 Академпериодика, 2007. 317/679 страница:
 
-2. Методы, основанные на спецификации (или методы функционального тестирования)
+Методы, основанные на спецификации (или методы функционального тестирования)
 
-Эти методы широко известны и подробно описаны в литературе [2, 8, 9, 10, 22–29]:
-- "Искусство тестирования программ", Гленфорд Майерс, 1982.
-- "Тестирование программного обеспечения", Канер С., Фолк Д., Нгуен Е., 2000.
-- "Software Unit Test Coverage and Adequacy", Zhu H., May J.H.R., 1997.
-- "Effective Methods for Software Testing", Perry W., 1995.
-- "An Operational Approach to Requirements Specification for Embedded Systems", Zave P., 1982.
-- Perry W. Effective Methods for Software Testing, John Wiley & Sons.- 1995.
-- Zave P. An Operational Approach to Requirements Specification for Embedded Systems // IEEE Trans. Software Eng..- 1982. -V.8. - No 3.
-- Weyuker E.J., Ostrand T.J. Theories of program testing and the application of revealing sub- domains // IEEE Trans.Soft.Eng.- 1980.-V.6. - No.3. - P. 236-246.
-- Richardson D., Clarke L. A partition analysis method to increase program reliability. // in proc. of yet 5th international Conf. Soft. Eng., San Diego, CA, mar.9-12, 1981, -P. 244-253.
-- Software unit test coverage and adequacy. / H.Zhu., P.A.V.Hall, J.H.R.May // ACM Computing Surveys.-1997.- V.29.-N.4. -P. 336-427.
-- Software testing based on formal specifications: a theory and tool. / G.Bernot., M.C.Gaudel, B.Marre // Software Engineering Journal.-1991.- November. – P. 287-405.
-- Dick J., Faivre A. Automating the generation and sequencing of test cases from model-based specification. // FME’93: Industrial-Strenght formal method, LNCS 670, Springer Vertag, 1993. -P. 268-284.
-- Horcher H., Peleska J. Using formal specifications to support software testing. // Software Quality Journal.-1995.- No 4. – P. 309-327.
-- Липаев В.В. Тестирование программ. -М.: Радио и связь, 1986. -296 с.
-
-В традиционной классификации их относят к методам «черного ящика». Они применяются для тестирования внешних и внутренних функций программы и предполагают наличие спецификации (формальной или не формальной), используемой в качестве эталона. Отличаются между собой подходами к выбору тестовых данных из множества входов (входного пространства) функций.
-
-К основным методам функционального тестирования относятся:
-
-- таблицы решений;
-- функциональные диаграммы;
-- эквивалентное разбиение;
-- анализ граничных значений;
-- разбиение входного пространства на категории;
-- тестирование переходов между состояниями;
-- тестирование по формальным спецификациям.
-
-Метод, использующий таблицы решений для проектирования тестов, был
+... Метод, использующий таблицы решений для проектирования тестов, был
 предложен Дж.Гуденафом и С.Герхартом [22]. Каждая колонка такой таблицы представляет комбинацию условий, которые могут существенно повлиять на выполнение программы. Эти условия идентифицируются на основе анализа спецификаций. Затем определяется множество их возможных значений, и устанавливаются ограничения относительно их совместимости. Таким образом, сокращается количество тестовых предикатов (например, ограничение может говорить о том, что, если условие 1 выполняется, то ни условие 2, ни условие 3 не могут выполняться).
 
 ### «Сертифицированный тестировщик Программа обучения Базового уровня», ISTQB
