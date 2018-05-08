@@ -1,4 +1,4 @@
-theme: jekyll-theme-slate
+theme: jekyll-theme-midnight
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
 url: https://almeln.github.io/ALMELN.ru/
 plugins:
