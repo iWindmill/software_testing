@@ -119,3 +119,5 @@
 
 1. "Software Testing Techniques" (2nd edition), Beizer, B., 1990 
 2. "A Practitioner’s Guide to Software Test Design", Copeland, L., 2004
+
+09.05.2018. Перейти на [Главную страницу](./)
