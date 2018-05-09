@@ -57,4 +57,4 @@
 
 [Перевод главы из книги "Наука отладки"](http://citforum.ru/programming/digest/scofdebug/index.shtml) | [Книга "Надежность программного обеспечения"](https://www.ozon.ru/context/detail/id/24613592/)
 
-25.05.2017
+25.05.2017. Перейти на [Главную страницу](./)
