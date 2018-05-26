@@ -24,6 +24,7 @@
 * [Виды тестирования](2017-05-08-types-of-software-testingmd.md)
 * [Уровни тестирования программ](2017-08-27-levels-of-testing.md)
 * [Нефункциональное тестирование](2018-02-13-non-functional-types-of-software-testing.md)
+* [Санитарное тестирование](2017-08-31-sanity-test.md)
 
 Методы проектирования тестов
 
