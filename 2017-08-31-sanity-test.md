@@ -1,4 +1,4 @@
-Озаботились повышением качества своего программного продукта. Попросили разработчиков перед передачей задачи проводить санитарное тестирование. Поговорили и пошли дальше. Но время показало, что у разработчиков есть вопросы — что такое санитарное тестирование? И что такое дымовое тестирование? Чем санитарное тестирование отличается от дывомого? А разве для санитарного тестирования не нужны спецификации, которых нет? «Разве мы должны проводить санитарное тестирование, а не тестировщики? Зачем тогда тестировщики?».
+# Санитарное тестирование
 
 В поисках ответа на вопросы прошелся по стандартам и литературе в области разработки программ и немного удивился. Стандарты и литература в большинстве случаев не касаются ни сантирного, ни дымового тестирования.
 
@@ -71,6 +71,22 @@ Build verification test (BVT). See Also: regression testing, smoke test. A set o
 Intake test. See Also: smoke test. Synonyms: pretest. A special instance of a smoke test to decide if the component or system is ready for detailed and further testing. An intake test is typically carried out at the start of the test execution phase.
 
 Smoke test. See Also: build verification test, intake test. Synonyms: confidence test, sanity test. A subset of all defined/planned test cases that cover the main functionality of a component or system, to ascertaining that the most crucial functions of a program work, but not bothering with finer details.
+
+### "Тестирование программного обеспечения. Базовый курс"
+
+![Святослав Куликов, EPAM](https://lh3.googleusercontent.com/N6l4LtcWxQUMlqQxxBl9xaVmubSyTRk3WZYl88rWmVcQRgJKbe925enFh4zMaa0Fgi7myy_kUosDiOP2yp1sfVMME2hjTgPL2Z7zIwuTFD_VbS08_RRD6cPgB1qDm2xbfkAbpsW3massg0LRJffdImuDolqNvKqckBaJAYIblpY6zqWOigjnYiu-l_VdNIIMb-eZc6iVqbZrzQZ5Qoqr7Er8QURTjYuFmNacP7pOU7Vq60Wse2F9hmN0NQoPBUSLCAIYqW_Ux1RFaERGB5aj1u7HkmlVCQs5u1m0U5QV61VptZQq3h8idbnEs3gtG8c2zU89NX_zkpbHkK2Ws5X5x_v6fxf9-IrYFsaBMsyGaea6v-u2rl9aybLbWcJzlaC8u0MuKtPY1TKf4NnR-mKMduW6ROOn7tLLleiXBhXTBWC8tTkat3b4JcwixGpBx2nMZxfMewUdB9LAJDv0AXng8zKQE2V2WuZ5kVdgoeGaqU-M30F39uCiDir0hAVtzSe6zMhYcGXLH9a6DHIY5OVrSMhptKzHv652cZDHq3MpMlZOQ-w-5-IXsob4YPIoU_79XvOEboxzycRjmGT3TmQUKgggxhihaD1S9tDowYjKQqiEmGYcLmoHLs2vF5e3-7Gv5vhFJRanCPO_yZxzfykfMwkMR2x7vxc3=w1225-h816-no)
+
+Святослав Куликов. Версия книги 1.2.1 от 02.08.2017, EPAM Systems. 74-75/295 страницы:
+
+Дымовое тестирование (smoke test139, intake test140, build verification test141) направлено на проверку самой главной, самой важной, самой ключевой функциональности, неработоспособность которой делает бессмысленной саму идею использования приложения (или иного объекта, подвергаемого дымовому тестированию).
+
+>   Внимание! Очень распространённая проблема! Из-за особенности перевода на русский язык под термином «приёмочное тестирова-ние» часто может пониматься как «smoke test», так и «acceptance test», которые изначально не имеют между собою ничего общего. Возможно, в том числе поэтому многие тестировщики почти не используют русский перевод «дымовое тестирование», а так и говорят — «смоук-тест».
+
+Дымовое тестирование проводится после выхода нового билда, чтобы определить общий уровень качества приложения и принять решение о (не)целесообразности выполнения тестирования критического пути и расширенного тестирования. Поскольку тест-кейсов на уровне дымового тестирования относительно немного, а сами они достаточно просты, но при этом очень часто повторяются, они являются хорошими кандидатами на автоматизацию. В связи с высокой важностью тест-кейсов на данном уровне пороговое значение метрики их прохождения часто выставляется равным 100% или близким к 100%.
+
+Очень часто можно услышать вопрос о том, чем «smoke test» отличается от «sanity test». В глоссарии ISTQB сказано просто: «sanity test: See smoke test». Но некоторые авторы ([Smoke Vs Sanity Testing, Introduction and Differences](http://www.guru99.com/smoke-sanity-testing.html)) утверждают, что разница ([«Smoke testing and sanity testing — Quick and simple differences»](http://www.softwaretestinghelp.com/smoke-testing-and-san-ity-testing-difference/)) есть и может быть выражена следующей схемой (рисунок 2.3.f):
+
+![Разница между санитарным тестированием и смоуком](https://lh3.googleusercontent.com/Q_kjamHRxL0Zeuv06hEP76Cz4dh3ZGm-6PVwN01WgW31Nieneen5CeZmeBfAIzuURGzE-hYMnCcC0HQ7y2uD60YoHCFPD9ZtIbweKg5780ubem0yze6J_g0cqX-U20GbpHj8N4Z4wM2v7ls2urpqcp6IZaE6aEgH2KYumQl-dkIuPuyWe5iY_n4u-LHSg6r0X8USE8tRL-ChOcy6MvzrfMvV__i20uJ9BUnGYtzHj-6Uji0rWcKWYA5Yd-bDuiRjECFVzpSk2Ns5REjb3kiBU1HU-TjPLWXzPtpEn6JIGC14ZOF3IpDTOavFZt61Ryt0wL46zcIvqz7-QdrXPYhcbo2KXsBiYzk2RQcNaUr2d-8VRhLpTsiw9rPfC_DIUppBkGOc_n9nk68NljdFR9QOjPTEPj2Yd8c0nBkKaQkT7dPCn6ruCQMb3XGbHAPLE_PEZkwlMSZtR5aB0Vt_YGaZcdku6kri7nbKQkZQIC9OvUA92NnL54tMlIbIT_v_lOrQ8nJA4ZUQzUCECoU_EbLGfwNLhOClcpoqn0M0XNPefGw7BHgErlZyxTbyGeSRoOg6D8T08Y8kQY1dgmYYmQNhlSiN2BbyGZFrzK3qTGFuR5HrsAqoy7Uckjnc1kHD-tNxIj2VTiHfL-KI6J8oS1mMqHYk3yMRQ4aE=w847-h410-no)
 
 Не обнаружил упоминания "smoke", "sanity", "санит", "прием", "дымов":
 
