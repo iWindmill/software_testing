@@ -4,6 +4,6 @@ url: https://almeln.github.io/ALMELN.ru/
 author: Алексей Мельников
 description: "О тестировании программного обеспечения и обеспечении качества с точек зрения как можно большего числа авторов"
 keywords: "тестирование программного обеспечение, обеспечение качества, тестирование программ"
-default_locale: "ru"
+default_locale: "ru_RU"
 plugins:
   - jekyll-sitemap
