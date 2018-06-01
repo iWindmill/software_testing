@@ -2,8 +2,11 @@ theme: jekyll-theme-modernist
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
 url: https://almeln.github.io/ALMELN.ru/
 author: Алексей Мельников
+email: alsermel@gmail.com
+aboutme: "Привет. Меня зовут Мельников Алексей. На этом ресурсе собираю знания по тестированию и обеспечению качества. Делаю упор на рассмотрение заявленных тем с точек зрения как можно большего числа авторов".
 description: "Программное обеспечение, тестирование и обеспечение качества, литература"
 keywords: "тестирование программного обеспечение, обеспечение качества, тестирование программ"
-default_locale: "ru_RU"
+google_analytics_key: UA-90371948-1
+locale: ru_RU
 plugins:
   - jekyll-sitemap
