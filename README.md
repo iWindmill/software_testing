@@ -12,14 +12,14 @@
 * [Принципы тестирования программного обеспечения](/2017-07-30-principles-of-software-testing.md)
 * [Обоснование потребности в тестировании](2017-05-25-need-for-testing.md)
 * [Классические и современные определения дефекта \(бага\)](2017-07-09-definition-of-the-defect-software.md)
-* [Навыки и компетенции в области обеспечения качества](2018-02-15-skills-and-competences-in-the-field-of-quality-assurancemd.md)
+* [Навыки и компетенции в области обеспечения качества](2018-02-15-skills-and-competences-in-the-field-of-quality-assurance.md)
 
 Место тестирования в жизненном цикле разработки программного обеспечения
 
 * [Место тестирования в процессах обеспечения качества](2017-05-28-place-of-testing.md)
 * [Роли и обязанности участников процесса разработки программ](2017-12-03-roles-and-responsibilities-of-software-development-participants.md)
 * [Модели разработки программного обеспечения и место тестирования в них](2017-08-21-models-of-software-development.md)
-* [Виды тестирования](2017-05-08-types-of-software-testingmd.md)
+* [Виды тестирования](2017-05-08-types-of-software-testing.md)
 * [Уровни тестирования программ](2017-08-27-levels-of-testing.md)
 * [Нефункциональное тестирование](2018-02-13-non-functional-types-of-software-testing.md)
 * [Санитарное тестирование](2017-08-31-sanity-test.md)
@@ -34,7 +34,7 @@
 Управление тестированием
 
 * [Правила составления отчета об ошибке](2017-02-12-bug-report.md)
-* [Риски и тестирование программного обеспечения](2018-02-25-risks-and-software-testingmd.md)
+* [Риски и тестирование программного обеспечения](2018-02-25-risks-and-software-testing.md)
 * [Определение приоритета тест-кейсов](2018-04-23-priorities-of-test-cases.md)
 * [Определение и составление тестовой стратегии](2018-02-16-defining-and-drafting-a-test-strategy.md)
 
