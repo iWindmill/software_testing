@@ -138,8 +138,8 @@ Question 21: Given the following decision table: Which of the following test cas
 | **Conditions** | | | | |
 | Age | < 21 yrs | 21-29 yrs | 30-50 yrs | > 50 yrs |
 | Insurance Class | A | A or B | B, C or D | C or D |
-| Actions | | | | |
-| Pr****emium | £100 | £90 | £70 | £70 |
+| **Actions** | | | | |
+| Premium | £100 | £90 | £70 | £70 |
 | Excess | £2,500 | £2,500 | £500 | £1000 |
 
 A. 23 year old in insurance class A Premium is 0 and excess is ,500. 
@@ -152,7 +152,7 @@ D. 43 year old in insurance class C Premium is 0 and excess is ,000.
 
 ### «Сертифицированный тестировщик Программа обучения Продвинутого уровня»
 
-Версия 2012 от 30 марта 2017 года, International Software Testing Qualifications Board. Рабочая группа Продвинутого уровня **Rex Black**, **Judy McKay**, **Graham Bath, Debra Friedenberg, Bernard Homès, Kenji Onishi, Mike Smith, Geoff Thompson, Tsuyoshi Yumoto**, **Маргарита Трофимова**, **Александр Александров**, **Андрей Конушин, Елена Костина, Александр Мешков, Александра Титова**. 56/101 страница:
+Версия 2012 от 30 марта 2017 года, International Software Testing Qualifications Board. Рабочая группа Продвинутого уровня Rex Black, Judy McKay, Graham Bath, Debra Friedenberg, Bernard Homès, Kenji Onishi, Mike Smith, Geoff Thompson, Tsuyoshi Yumoto, Маргарита Трофимова, Александр Александров, Андрей Конушин, Елена Костина, Александр Мешков, Александра Титова. 56/101 страница:
 
 Таблицы решений – хороший метод для сбора системных требований, содержащих логические условия и документирования внутреннего дизайна системы. Они могут использоваться для записи сложных бизнес-правил, которые должна реализовывать система. Анализируются спецификации и определяются условия и действия системы. Входные условия и действия чаще всего формулируются таким образом, чтобы они могли принимать логические значения «истина» или «ложь».
 
