@@ -2,8 +2,7 @@
 
 Подборка упражнений, задач и решений с доказательствами.
 
-Вопросы
-
+Вопросы:
 1. [Which of the following statements BEST describes one of the seven key principles of software testing?](#isqtb1)
 
 ### Which of the following statements BEST describes one of the seven key principles of software testing? <a name="isqtb1"></a>
