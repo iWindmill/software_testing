@@ -2,9 +2,26 @@
 
 Подборка упражнений, задач и решений.
 
-Вопросы:
+## Содержание
+
+1. Who is the inventor of Linux?
+1. What does GNU stands for?
+1. Which Linux distribution was the basis for Ubuntu?
 1. How to find out what version of Linux you are running?
+1. How long can a filename in Linux be?
+1. Which command is used to see the online manual?
 1. What is the symbolic representation of this numeric permission: 644?
+1. Which of the following are valid Linux wildcards?
+1. What are the contents of /bin directory?
+1. What are the contents of /etc directory?
+1. What are the contents of /dev directory?
+1. What are the contents of /home directory?
+1. Для чего нужен cron?
+1. What is the default administrator username?
+1. Где хранятся пароли пользователей?
+1. Что означает право на исполнение для директории?
+1. Как создать пользователя?
+1. Как напечатать на экран значение переменной `а`?
 
 ### Who is the inventor of Linux?
 
@@ -25,6 +42,26 @@ b. ИСТИНА. Воодушевлённый прочтением книги Э
 c. ЛОЖЬ. Э́ндрю Стюарт Таненба́ум (англ. Andrew Stuart Tanenbaum) (родился 16 марта, 1944 года) — профессор Амстердамского свободного университета, где возглавляет группу разработчиков компьютерных систем; защитил докторскую диссертацию по физике в Калифорнийском университете в Беркли. Известен как автор Minix (свободная Unix-подобная операционная система для студенческих лабораторий), книг по компьютерным наукам и RFID-вируса. Также является главным разработчиком пакета «Amsterdam Compiler Kit». Сам он считает свою преподавательскую деятельность наиболее важной.
 
 d. ЛОЖЬ. Кен То́мпсон — пионер компьютерной науки, известен за свой вклад в создание языка программирования C и операционной системы UNIX.
+
+### What does GNU stands for?
+
+a) Gnu’s not Unix
+
+b) Geek Needed Unix
+
+c) Genuinely Not Unix
+
+d) Great New Unix
+
+### Which Linux distribution was the basis for Ubuntu?
+
+a) Fedora
+
+b) CentOS
+
+c) FreeBSD
+
+d) Debian
 
 ### How to find out what version of Linux you are running?
 
@@ -208,5 +245,83 @@ b. Security configuration
 c. Internet services configuration
 
 d. All applications setting
+
+### What are the contents of /dev directory?
+
+a) Device drive information
+
+b) Home directories of developers
+
+c) System configuration files
+
+d) Home directories of all users.
+
+### What are the contents of /home directory?
+
+a) Home directories of all users
+
+b) Home directories of the system
+
+c) System log files
+
+d) System configuration files
+
+### Для чего нужен cron?
+
+а) Это сервис для печати (принтер)
+
+б) Для запуска задач по расписанию
+
+в) Так называется скрипт, который выполняется при каждом запуске системы.
+
+### What is the default administrator username?
+
+a) administrator
+
+b) admin
+
+c) root
+
+d) superuser
+
+### Где хранятся пароли пользователей?
+
+а) В системном реестре
+
+б) В /bin/pwd
+
+в) В /etc/shadow
+
+г) В /bin/passwd
+
+д) В /etc/passwd
+
+### Что означает право на исполнение для директории?
+
+а) Можно перейти в эту директорию
+
+б) Можно исполнять любые файлы в директории
+
+в) Можно получить доступ к атрибутам файлов в директории
+
+г) Можно загружать в директорию исполняемые файлы
+
+### Как создать пользователя?
+
+а) С помощью утилиты adduser, заполнить небольшую анкету.
+
+б) Только с помощью панели управления
+
+в) С помощью утилиты useradd, указав новые ключи, после с помощью passwd задать пароль.
+
+### Как напечатать на экран значение переменной `а`?
+
+а) `echo "a"`
+
+б) `a.echo()` 
+
+в ) `echo a`
+
+г) `echo $a`
 
 05.07.2018. Перейти на [Главную страницу](./)
