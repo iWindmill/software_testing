@@ -29,7 +29,8 @@
 Методы проектирования тестов
 
 * [Проектирование тестов: методы и правила составления](2018-05-09-test-design.md)
-* [Классы эквивалентности и анализ граничных значений](2016-09-04-equivalence-classes-and-boundary-value-analysis.md)
+* [Классы эквивалентности](2016-09-04-equivalence-classes.md)
+* [Анализ граничных значений](2016-09-04-boundary-value-analysis.md)
 * [Таблицы принятия решений](2018-05-06-decision-tables.md)
 * [Тест-кейс: понятие, атрибуты и правила составления](2017-10-09-test-case.md)
 
@@ -46,7 +47,7 @@
 * [Компьютерные сети](2018-06-30-computer-networks.md)
 * [Тестирование программного обеспечения](2018-03-25-software-testing-exercises-tasks-answers-and-proofs.md)
 * [Linux](2018-07-05-linux-exercises-and-solutions.md)
-* [Базы данных](2018-07-09-tests and solutions.md)
+* [Базы данных](2018-07-09-databases-tests-and-solutions.md)
 
 ### Книжная полка
 
