@@ -44,10 +44,11 @@
 
 ### Упражнения и решения
 
+* [Базы данных](2018-07-09-databases-tests-and-solutions.md)
+* [Комбинаторика](2018-09-22-combinatorics.md)
 * [Компьютерные сети](2018-06-30-computer-networks.md)
 * [Тестирование программного обеспечения](2018-03-25-software-testing-exercises-tasks-answers-and-proofs.md)
 * [Linux](2018-07-05-linux-exercises-and-solutions.md)
-* [Базы данных](2018-07-09-databases-tests-and-solutions.md)
 
 ### Книжная полка
 
