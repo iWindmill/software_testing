@@ -1,6 +1,4 @@
-~~В заметке "[Роли и обязанности участников процесса разработки программ](/2017-12-03-roles-and-responsibilities-of-software-development-participants.md)" разобрались в обязанностях менеджера по маркетингу, менеджера продукта, продюсера и дизайнеров продукта. Менеджер по маркетингу (product manager или product marketing manager) определяет требования рынка, функции и возможности, функции продукта и оборудования. Маркетологи могут компоновать свои идеи в Marketing Requirements Document — документ о требованиях маркетинга, суть которого: "хотелось бы это иметь". Идеи менеджмента разрабатываются, документируется воплощение, которое является дизайном продукта (product design) - то, как та или иная часть продукта должна выглядеть и работать. Лицом преобразующим пожелания маркетинга в спецификации является менеджер продукта (PMs — Product Managers), которые также могут называться продюсерами (Producers) или дизайнерами продукта (Product Designer). Менеджер продукта и маркетинг приносят черновую версию спецификации требований для обсуждения.~~
-
-~~Но как выглядит правильно оформленные требования? Что такое спецификация и какие их виды бывают? Что необходимо указывать в спецификациях и что указывать не стоит? Полистаем литературу в поисках ответа на эти вопросы...~~
+# Виды требований к программным средствам
 
 В [учебных программах](/2016-08-14-educational-programs-exam-questions-and-literature.md) по дисциплине "Обеспечение качества и тестирование программ" есть вопросы:
 - Анализ и тестирование требований. Виды требований. Критерии качественных требований
@@ -17,106 +15,110 @@
 
 Составил подборку выдержек по теме из различных источников.
 
-"_Искусство тестирования программ_", **Гленфорд Майерс**, 1982. 125-127, 130 страницы,
+### "_Искусство тестирования программ_"
 
-> ...3). На основании указанных целей создается подробная и точная спецификация конечного программного продукта, причем сам продукт рассматривается как черный ящик и учитываются только его интерфейсы и взаимодействия с внешним миром (например, с конечным пользователем). Эта спецификация называется внешней.
-> ...5). Проектируется структура программы путем специфицирования (установления) функции каждого модуля, иерархической структуры всех модулей и всех интерфейсов между модулями.
-> 6). Разрабатывается подробная и точная спецификация путем определения интерфейса и функции каждого модуля.
-> 7). За один или несколько подшагов спецификация интерфейса модуля переводится в алгоритм каждого модуля, записанный на исходном языке.
+**Гленфорд Майерс**, 1982. 125-127, 130 страницы,
 
-> Иными словами, требования обосновывают, почему нужна данная программа, цели определяют, что должна делать данная программа и как хорошо она должна это делать, внешние спецификации дают точное представление о программе ее пользователей, а документация, связанная с описанным выше последовательным процессом, показывает на всех уровнях детализации, как построена эта программа...
+...3). На основании указанных целей создается подробная и точная спецификация конечного программного продукта, причем сам продукт рассматривается как черный ящик и учитываются только его интерфейсы и взаимодействия с внешним миром (например, с конечным пользователем). Эта спецификация называется внешней.
+...5). Проектируется структура программы путем специфицирования (установления) функции каждого модуля, иерархической структуры всех модулей и всех интерфейсов между модулями.
+6). Разрабатывается подробная и точная спецификация путем определения интерфейса и функции каждого модуля.
+7). За один или несколько подшагов спецификация интерфейса модуля переводится в алгоритм каждого модуля, записанный на исходном языке.
 
-> Внешняя спецификация представляет собой точное описание поведения программы с точки зрения "внешнего мира" (например, пользователя).
+Иными словами, требования обосновывают, почему нужна данная программа, цели определяют, что должна делать данная программа и как хорошо она должна это делать, внешние спецификации дают точное представление о программе ее пользователей, а документация, связанная с описанным выше последовательным процессом, показывает на всех уровнях детализации, как построена эта программа...
+
+Внешняя спецификация представляет собой точное описание поведения программы с точки зрения "внешнего мира" (например, пользователя).
 
 "_Управление качеством и обеспечение качества - Словарь_", **Международный стандарт ИСО 8402**, 1994 год. 5 страница: 
 
-> Требования к качеству - выражение определенных потребностей или их перевод в набор количественно или качественно установленных требований к характеристикам объекта (1.1), чтобы дать возможность их реализации и проверки.
+Требования к качеству - выражение определенных потребностей или их перевод в набор количественно или качественно установленных требований к характеристикам объекта (1.1), чтобы дать возможность их реализации и проверки.
 
-> Примечания:
-> 1. Существенно, чтобы требования к качеству полностью отражали установленные и предполагаемые потребности потребителя (1.9)
-> 2. Термин «требование» охватывает рыночные и контрактные требования, а также внутренние требования организации (1.7). Они могут быть разработаны, детализированы и актуализированы на различных этапах планирования.
-> 3. Заданные количественные требования к характеристикам включают, например, номинальные значения, относительные значения, предельные отклонения и допуски.
-> 4. Требования к качеству должны быть выражены на начальной стадии в функциональных терминах и документально оформлены.
+Примечания:
+1. Существенно, чтобы требования к качеству полностью отражали установленные и предполагаемые потребности потребителя (1.9)
+2. Термин «требование» охватывает рыночные и контрактные требования, а также внутренние требования организации (1.7). Они могут быть разработаны, детализированы и актуализированы на различных этапах планирования.
+3. Заданные количественные требования к характеристикам включают, например, номинальные значения, относительные значения, предельные отклонения и допуски.
+4. Требования к качеству должны быть выражены на начальной стадии в функциональных терминах и документально оформлены.
 
-Standard for Software Test Documentation, **IEEE Std 829-1998**. 4-5 страницы:
+### Standard for Software Test Documentation
 
-> **Test design specification**
+**IEEE Std 829-1998**. 4-5 страницы:
 
-> **Спецификация проектирования тестов**
+**Test design specification**
 
-> 5.1 Purpose
+**Спецификация проектирования тестов**
 
-> 5.1 Цель [ˈpɜːpəs]
+5.1 Purpose
 
-> To specify refinements of the test approach and to identify the features to be tested by this design and its associated tests.
+5.1 Цель [ˈpɜːpəs]
 
-> Указать уточнения тестового подхода и определить функции, которые будут проверяться с помощью проектирования и объединения тестов.
+To specify refinements of the test approach and to identify the features to be tested by this design and its associated tests.
 
-> 5.2 Outline
+Указать уточнения тестового подхода и определить функции, которые будут проверяться с помощью проектирования и объединения тестов.
 
-> 5.2 План, схема
+5.2 Outline
 
-> A test design specification shall have the following structure:
+5.2 План, схема
 
-> - a) Test design specification identifier;
+A test design specification shall have the following structure:
+
+- a) Test design specification identifier;
 - b) Features to be tested;
 - c) Approach refinements;
 - d) Test identification;
 - e) Feature pass/fail criteria.
 
-> Спецификация проектирования тестов должна иметь следующую структуру:
+Спецификация проектирования тестов должна иметь следующую структуру:
 
-> - a) идентификатор спецификации проектирования тестов;
+- a) идентификатор спецификации проектирования тестов;
 - b) фичи, которые нужно проверить;
 - c) ...;
 - d) ...;
 - e) критерии сдачи/провала фичи.
 
-> The sections shall be ordered in the specified sequence. Additional sections may be included at the end. If some or all of the content of a section is in another document, then a reference to that material may be listed in place of the corresponding content. The referenced material must be attached to the test design specification or available to users of the design specification.
+The sections shall be ordered in the specified sequence. Additional sections may be included at the end. If some or all of the content of a section is in another document, then a reference to that material may be listed in place of the corresponding content. The referenced material must be attached to the test design specification or available to users of the design specification.
 
-> Разделы упорядочиваются в указанной последовательности. Дополнительные разделы могут быть включены в конце. Если часть или все содержание раздела содержится в другом документе, то вместо соответствующего содержания может быть указана ссылка на этот материал. Материал, на который делается ссылка, должен быть прикреплен к спецификации проектирования тестов или доступен для пользователей спецификации проектирования.
+Разделы упорядочиваются в указанной последовательности. Дополнительные разделы могут быть включены в конце. Если часть или все содержание раздела содержится в другом документе, то вместо соответствующего содержания может быть указана ссылка на этот материал. Материал, на который делается ссылка, должен быть прикреплен к спецификации проектирования тестов или доступен для пользователей спецификации проектирования.
 
-> Details on the content of each section are contained in the following subclauses.
+Details on the content of each section are contained in the following subclauses.
 
-> Подробная информация о содержании каждого раздела содержится в следующих подразделах.
+Подробная информация о содержании каждого раздела содержится в следующих подразделах.
 
-> 5.2.1 Test design specification identifier
+5.2.1 Test design specification identifier
 
-> Specify the unique identifier assigned to this test design specification. Supply a reference to the associated test plan, if it exists.
+Specify the unique identifier assigned to this test design specification. Supply a reference to the associated test plan, if it exists.
 
-> 5.2.2 Features to be tested
+5.2.2 Features to be tested
 
-> Identify the test items and describe the features and combinations of features that are the object of this design specification. Other features may be exercised, but need not be identified.
+Identify the test items and describe the features and combinations of features that are the object of this design specification. Other features may be exercised, but need not be identified.
 
-> For each feature or feature combination, a reference to its associated requirements in the item requirement specification or design description should be included.
+For each feature or feature combination, a reference to its associated requirements in the item requirement specification or design description should be included.
 
-> 5.2.3 Approach refinements
+5.2.3 Approach refinements
 
-> Specify refinements to the approach described in the test plan. Include specific test techniques to be used. The method of analyzing test results should be identified (e.g., comparator programs or visual inspection).
+Specify refinements to the approach described in the test plan. Include specific test techniques to be used. The method of analyzing test results should be identified (e.g., comparator programs or visual inspection).
 
-> Specify the results of any analysis that provides a rationale for test case selection. For example, one might specify conditions that permit a determination of error tolerance (e.g., those conditions that distinguish valid inputs from invalid inputs).
+Specify the results of any analysis that provides a rationale for test case selection. For example, one might specify conditions that permit a determination of error tolerance (e.g., those conditions that distinguish valid inputs from invalid inputs).
 
-> Summarize the common attributes of any test cases. This may include input constraints that must be true for every input in the set of associated test cases, any shared environmental needs, any shared special procedural requirements, and any shared case dependencies.
+Summarize the common attributes of any test cases. This may include input constraints that must be true for every input in the set of associated test cases, any shared environmental needs, any shared special procedural requirements, and any shared case dependencies.
 
-> 5.2.4 Test identification
+5.2.4 Test identification
 
-> List the identifier and a brief description of each test case associated with this design. A particular test case may be identified in more than one test design specification. List the identifier and a brief description of each procedure associated with this test design specification.
+List the identifier and a brief description of each test case associated with this design. A particular test case may be identified in more than one test design specification. List the identifier and a brief description of each procedure associated with this test design specification.
 
-> 5.2.5 Feature pass/fail criteria
+5.2.5 Feature pass/fail criteria
 
-> Specify the criteria to be used to determine whether the feature or feature combination has passed or failed.
+Specify the criteria to be used to determine whether the feature or feature combination has passed or failed.
 
-> **Test case specification**
+**Test case specification**
 
-> 6.1 Purpose
+6.1 Purpose
 
-> To define a test case identified by a test design specification.
+To define a test case identified by a test design specification.
 
-> 6.2 Outline
+6.2 Outline
 
-> A test case specification shall have the following structure:
+A test case specification shall have the following structure:
 
-> - a) Test case specification identifier;
+- a) Test case specification identifier;
 - b) Test items;
 - c) Input specifications;
 - d) Output specifications;
@@ -124,226 +126,230 @@ Standard for Software Test Documentation, **IEEE Std 829-1998**. 4-5 стран�
 - f) Special procedural requirements;
 - g) Intercase dependencies.
 
-> The sections shall be ordered in the specified sequence. Additional sections may be included at the end. If some or all of the content of a section is in another document, then a reference to that material may be listed in place of the corresponding content. The referenced material must be attached to the test case specification or available to users of the case specification.
+The sections shall be ordered in the specified sequence. Additional sections may be included at the end. If some or all of the content of a section is in another document, then a reference to that material may be listed in place of the corresponding content. The referenced material must be attached to the test case specification or available to users of the case specification.
 
-> Since a test case may be referenced by several test design specifications used by different groups over a long time period, enough specific information must be included in the test case specification to permit reuse.
+Since a test case may be referenced by several test design specifications used by different groups over a long time period, enough specific information must be included in the test case specification to permit reuse.
 
-> Details on the content of each section are contained in the following subclauses.
+Details on the content of each section are contained in the following subclauses.
 
-> 6.2.1 Test case specification identifier
+6.2.1 Test case specification identifier
 
-> Specify the unique identifier assigned to this test case specification.
+Specify the unique identifier assigned to this test case specification.
 
-> 6.2.2 Test items
+6.2.2 Test items
 
-> Identify and briefly describe the items and features to be exercised by this test case. For each item, consider supplying references to the following test item documentation:
+Identify and briefly describe the items and features to be exercised by this test case. For each item, consider supplying references to the following test item documentation:
 
-> a) Requirements specification;
+a) Requirements specification;
 b) Design specification;
 c) Users guide;
 d) Operations guide;
 e) Installation guide.
 
-> 6.2.3 Input specifications
+6.2.3 Input specifications
 
-> Specify each input required to execute the test case. Some of the inputs will be specified by value (with tolerances where appropriate), while others, such as constant tables or transaction files, will be specified by name. Identify all appropriate databases, files, terminal messages, memory resident areas, and values passed by the operating system.
+Specify each input required to execute the test case. Some of the inputs will be specified by value (with tolerances where appropriate), while others, such as constant tables or transaction files, will be specified by name. Identify all appropriate databases, files, terminal messages, memory resident areas, and values passed by the operating system.
 
-> Specify all required relationships between inputs (e.g., timing).
+Specify all required relationships between inputs (e.g., timing).
 
-> 6.2.4 Output specifications
+6.2.4 Output specifications
 
-> Specify all of the outputs and features (e.g., response time) required of the test items. Provide the exact value (with tolerances where appropriate) for each required output or feature.
+Specify all of the outputs and features (e.g., response time) required of the test items. Provide the exact value (with tolerances where appropriate) for each required output or feature.
 
-> 6.2.5 Environmental needs
+6.2.5 Environmental needs
 
-> 6.2.5.1 Hardware
+6.2.5.1 Hardware
 
-> Specify the characteristics and configurations of the hardware required to execute this test case (e.g., 132 character ¥ 24 line CRT).
+Specify the characteristics and configurations of the hardware required to execute this test case (e.g., 132 character ¥ 24 line CRT).
 
-> 6.2.5.2 Software
+6.2.5.2 Software
 
-> Specify the system and application software required to execute this test case. This may include system soft- ware such as operating systems, compilers, simulators, and test tools. In addition, the test item may interact with application software.
+Specify the system and application software required to execute this test case. This may include system software such as operating systems, compilers, simulators, and test tools. In addition, the test item may interact with application software.
 
-> 6.2.5.3 Other
+6.2.5.3 Other
 
-> Specify any other requirements such as unique facility needs or specially trained personnel.
+Specify any other requirements such as unique facility needs or specially trained personnel.
 
-> 6.2.6 Special procedural requirements
+6.2.6 Special procedural requirements
 
-> Describe any special constraints on the test procedures that execute this test case. These constraints may involve special set up, operator intervention, output determination procedures, and special wrap up.
+Describe any special constraints on the test procedures that execute this test case. These constraints may involve special set up, operator intervention, output determination procedures, and special wrap up.
 
-> 6.2.7 Intercase dependencies
+6.2.7 Intercase dependencies
 
-> List the identifiers of test cases that must be executed prior to this test case. Summarize the nature of the dependencies.
+List the identifiers of test cases that must be executed prior to this test case. Summarize the nature of the dependencies.
 
-> **Test procedure specification**
+**Test procedure specification**
 
-> 7.1 Purpose
+7.1 Purpose
 
-> To specify the steps for executing a set of test cases or, more generally, the steps used to analyze a software item in order to evaluate a set of features.
+To specify the steps for executing a set of test cases or, more generally, the steps used to analyze a software item in order to evaluate a set of features.
 
-> 7.2 Outline
+7.2 Outline
 
-> A test procedure specification shall have the following structure:
+A test procedure specification shall have the following structure:
 
-> - a) Test procedure specification identifier.
+- a) Test procedure specification identifier.
 - b) Purpose;
 - c) Special requirements;
 - d) Procedure steps.
 
-> The sections shall be ordered in the specified sequence. Additional sections, if required, may be included at the end. If some or all of the content of a section is in another document, then a reference to that material may be listed in place of the corresponding content. The referenced material must be attached to the test procedure specification or available to users of the procedure specification.
+The sections shall be ordered in the specified sequence. Additional sections, if required, may be included at the end. If some or all of the content of a section is in another document, then a reference to that material may be listed in place of the corresponding content. The referenced material must be attached to the test procedure specification or available to users of the procedure specification.
 
-> Details on the content of each section are contained in the following subclauses.
+Details on the content of each section are contained in the following subclauses.
 
-> 7.2.1 Test procedure specification identifier
+7.2.1 Test procedure specification identifier
 
-> Specify the unique identifier assigned to this test procedure specification. Supply a reference to the associ- ated test design specification.
+Specify the unique identifier assigned to this test procedure specification. Supply a reference to the associ- ated test design specification.
 
-> 7.2.2 Purpose
+7.2.2 Purpose
 
-> Describe the purpose of this procedure. If this procedure executes any test cases, provide a reference for each of them.
+Describe the purpose of this procedure. If this procedure executes any test cases, provide a reference for each of them.
 
-> In addition, provide references to relevant sections of the test item documentation (e.g., references to usage procedures).
+In addition, provide references to relevant sections of the test item documentation (e.g., references to usage procedures).
 
-> 7.2.3 Special requirements
+7.2.3 Special requirements
 
-> Identify any special requirements that are necessary for the execution of this procedure. These may include prerequisite procedures, special skills requirements, and special environmental requirements.
+Identify any special requirements that are necessary for the execution of this procedure. These may include prerequisite procedures, special skills requirements, and special environmental requirements.
 
-> 7.2.4 Procedure steps
+7.2.4 Procedure steps
 
-> Include the steps in 7.2.4.1 through 7.2.4.10 as applicable.
+Include the steps in 7.2.4.1 through 7.2.4.10 as applicable.
 
-> 7.2.4.1 Log
+7.2.4.1 Log
 
-> Describe any special methods or formats for logging the results of test execution, the incidents observed, and any other events pertinent to the test (see Clauses 9 and 10).
+Describe any special methods or formats for logging the results of test execution, the incidents observed, and any other events pertinent to the test (see Clauses 9 and 10).
 
-> 7.2.4.2 Set up
+7.2.4.2 Set up
 
-> Describe the sequence of actions necessary to prepare for execution of the procedure.
+Describe the sequence of actions necessary to prepare for execution of the procedure.
 
-> 7.2.4.3 Start
+7.2.4.3 Start
 
-> Describe the actions necessary to begin execution of the procedure.
+Describe the actions necessary to begin execution of the procedure.
 
-> 7.2.4.4 Proceed
+7.2.4.4 Proceed
 
-> Describe any actions necessary during execution of the procedure.
+Describe any actions necessary during execution of the procedure.
 
-> 7.2.4.5 Measure
+7.2.4.5 Measure
 
-> Describe how the test measurements will be made (e.g., describe how remote terminal response time is to be measured using a network simulator).
+Describe how the test measurements will be made (e.g., describe how remote terminal response time is to be measured using a network simulator).
 
-> 7.2.4.6 Shut down
+7.2.4.6 Shut down
 
-> Describe the actions necessary to suspend testing, when unscheduled events dictate.
+Describe the actions necessary to suspend testing, when unscheduled events dictate.
 
-> 7.2.4.7 Restart
+7.2.4.7 Restart
 
-> Identify any procedural restart points and describe the actions necessary to restart the procedure at each of these points.
+Identify any procedural restart points and describe the actions necessary to restart the procedure at each of these points.
 
-> 7.2.4.8 Stop
+7.2.4.8 Stop
 
-> Describe the actions necessary to bring execution to an orderly halt.
+Describe the actions necessary to bring execution to an orderly halt.
 
-> 7.2.4.9 Wrap up
-> Describe the actions necessary to restore the environment.
+7.2.4.9 Wrap up
+Describe the actions necessary to restore the environment.
 
-> 7.2.4.10 Contingencies
-> Describe the actions necessary to deal with anomalous events that may occur during execution.
+7.2.4.10 Contingencies
+Describe the actions necessary to deal with anomalous events that may occur during execution.
 
 IEEE Recommended Practice for Software Requirements Specifications, **IEEE Std 830-1998**. 21-26 страницы:
 
-> - A.1 Template of SRS Section 3 organized by mode: Version 1
+- A.1 Template of SRS Section 3 organized by mode: Version 1
 - A.2 Template of SRS Section 3 organized by mode: Version 2
 - A.3 Template of SRS Section 3 organized by user class
 - A.5 Template of SRS Section 3 organized by feature
 - A.7 Template of SRS Section 3 organized by functional hierarchy
 
-«_Основы программной инженерии (по SWEBOK). Программная инженерия. Программные требования_» на базе IEEE Guide to SWEBOK® 2004, русский перевод с замечаниями и комментариями, **Сергей Орлик**. 2-4/21 страницы:
+### «_Основы программной инженерии (по SWEBOK). Программная инженерия. Программные требования_»
 
-> Программные требования – Software Requirements – свойства программного обеспечения, которые должны быть надлежащим образом представлены в нѐм для решения конкретных практических задач...
+На базе IEEE Guide to SWEBOK® 2004, русский перевод с замечаниями и комментариями, **Сергей Орлик**. 2-4/21 страницы:
 
-> На практике часто применяется подход, используемый в различных методологиях разработки ПО и базирующийся на определении групп требований к продукту. Такой подход обычно включает группы (типы, категории) требований, например: системные, программные, функциональные, нефункциональные (в частности, атрибуты качества) и т.п. Классический пример высокоуровненого структурирования групп требований как требований к продукту описан в работах одного из классиков дисциплины управления требованиями - Карла Вигерса.
+Программные требования – Software Requirements – свойства программного обеспечения, которые должны быть надлежащим образом представлены в нѐм для решения конкретных практических задач...
 
-> ![](https://lh3.googleusercontent.com/_juSyc89xchw9SzLYJYAu9Lga9uZmhIenkX8KPZ7gO_4y5jpL_oI8Bp8_Zdx2SPu-Qw1cRAx2ijrihOWhx0KOPgreqFe1ZhpDx56ZvqdnhW10eOZFMAwz7OoGrv0dCTLiZQlEjlZZ1V3kWdbH3wtevA8H-BXGrLJnAxKPU1KaLVhSWwOA0ppsWthFeJaUtMDd3aG3Aq-MlZQRBHxfz27WIFAXzavJZ0JwnRKLjniqJAsJ73ciNd2aKiQ-P8IiYmN5RhVtQr6xS7U998u7ichuXFNonChgpNGgs5yau87gkTR_1H1crMVPbazru9qeLzh2xyYCqpJ7HLn47TY6Bvxj4teROu41qOWL2ZTRhRna-m9jjdo68Z6y2hItmAvLxIIkSmPySthIRXCMUy4BZYXUyVVu3aiEiKwXYznSMnTbrCRhnAiliCrwXnTEVnIkJuqt6Dxa1SpzHUKwUCW71VeLCKqgl6_5imFlkkV_pE00kTOTiqB4S-vmc2ejinRZKTfjUsjW-RmhCFm-r6Gn1m9Z3KSx3Ru-m2WuAYjmWunyvvFuzhYcdu6-LQW7vzOz0MSjDfClgbpneog90gJJ7I_lGaMeztpcLet9H0z4lMhJlW111ezk9eXGGSB6JxkoxnhUqbvcJhOdZThWIYQl0XHaIfZWE9-nBMI=w1053-h749-no)
+На практике часто применяется подход, используемый в различных методологиях разработки ПО и базирующийся на определении групп требований к продукту. Такой подход обычно включает группы (типы, категории) требований, например: системные, программные, функциональные, нефункциональные (в частности, атрибуты качества) и т.п. Классический пример высокоуровненого структурирования групп требований как требований к продукту описан в работах одного из классиков дисциплины управления требованиями - Карла Вигерса.
 
-> 1.1... По мнению авторов, необходимо обратить внимание на следующие определения понятия “требование” (на основе работ Вигерса и стандарта IEEE Standard Glossary of Software Engineering Terminology, 1990):
-> - Условие или возможность, требуемая пользователем для решения задач или достижения целей.
-> - Условие или возможность, которые должны удовлетворяться системой/компонентом системы или которыми система/компонент системы должна обладать для обеспечения условий контракта, стандартов, спецификаций или  др. регулирующими документами.
-> - Документальная репрезентация (зафиксированное представление, определение, описание) условий или возможностей, перечисленных в предыдущих пунктах.
+![](https://lh3.googleusercontent.com/_juSyc89xchw9SzLYJYAu9Lga9uZmhIenkX8KPZ7gO_4y5jpL_oI8Bp8_Zdx2SPu-Qw1cRAx2ijrihOWhx0KOPgreqFe1ZhpDx56ZvqdnhW10eOZFMAwz7OoGrv0dCTLiZQlEjlZZ1V3kWdbH3wtevA8H-BXGrLJnAxKPU1KaLVhSWwOA0ppsWthFeJaUtMDd3aG3Aq-MlZQRBHxfz27WIFAXzavJZ0JwnRKLjniqJAsJ73ciNd2aKiQ-P8IiYmN5RhVtQr6xS7U998u7ichuXFNonChgpNGgs5yau87gkTR_1H1crMVPbazru9qeLzh2xyYCqpJ7HLn47TY6Bvxj4teROu41qOWL2ZTRhRna-m9jjdo68Z6y2hItmAvLxIIkSmPySthIRXCMUy4BZYXUyVVu3aiEiKwXYznSMnTbrCRhnAiliCrwXnTEVnIkJuqt6Dxa1SpzHUKwUCW71VeLCKqgl6_5imFlkkV_pE00kTOTiqB4S-vmc2ejinRZKTfjUsjW-RmhCFm-r6Gn1m9Z3KSx3Ru-m2WuAYjmWunyvvFuzhYcdu6-LQW7vzOz0MSjDfClgbpneog90gJJ7I_lGaMeztpcLet9H0z4lMhJlW111ezk9eXGGSB6JxkoxnhUqbvcJhOdZThWIYQl0XHaIfZWE9-nBMI=w1053-h749-no)
 
-> 1.2. **Требования к продукту и процессу (Product and Process Requirements)** – проводится разграничение соответствующих требований как свойств продукта, который необходимо получить, и процесса, с помощью которого продукт будет создаваться; отмечается, что ряд требований может быть заложен неявно и программные требования могут порождать требования к процессу, например: работа в режиме 24x7 (как бизнес-требование) наверняка приведет к ограничению выбора тех или иных программных средств, платформ развертывания и архитектурных решений; в свою очередь, выбор платформы J2EE (Java 2 Enterprise Edition) и ее реализации в виде конкретного сервера приложений практически наверняка потребует применения модульного тестирования (Unit testing) как практики процесса разработки и JUnit, как инструмента реализации этой практики.
+1.1... По мнению авторов, необходимо обратить внимание на следующие определения понятия “требование” (на основе работ Вигерса и стандарта IEEE Standard Glossary of Software Engineering Terminology, 1990):
+- Условие или возможность, требуемая пользователем для решения задач или достижения целей.
+- Условие или возможность, которые должны удовлетворяться системой/компонентом системы или которыми система/компонент системы должна обладать для обеспечения условий контракта, стандартов, спецификаций или  др. регулирующими документами.
+- Документальная репрезентация (зафиксированное представление, определение, описание) условий или возможностей, перечисленных в предыдущих пунктах.
 
-> 1.3 **Функциональные и нефункциональные требования (Functional and Non-functional Requirements)** – функциональные требования задают “что” система должна делать; нефункциональные – с соблюдением “каких условий” (например, скорость отклика при выполнении заданной операции).
+1.2. **Требования к продукту и процессу (Product and Process Requirements)** – проводится разграничение соответствующих требований как свойств продукта, который необходимо получить, и процесса, с помощью которого продукт будет создаваться; отмечается, что ряд требований может быть заложен неявно и программные требования могут порождать требования к процессу, например: работа в режиме 24x7 (как бизнес-требование) наверняка приведет к ограничению выбора тех или иных программных средств, платформ развертывания и архитектурных решений; в свою очередь, выбор платформы J2EE (Java 2 Enterprise Edition) и ее реализации в виде конкретного сервера приложений практически наверняка потребует применения модульного тестирования (Unit testing) как практики процесса разработки и JUnit, как инструмента реализации этой практики.
 
-> По мнению авторов, в определенной степени, систематизируя работы Вигерса, Лефингвелла и Видрига, Коберна, а также других экспертов, необходимо привести классификацию различных категорий (видов) требований и связанных с ними понятий, важнейших с точки зрения их понимания и дальнейшего практического применения:
-> - Потребности (needs) – отражают проблемы бизнеса, персоналии или процесса, которые должны быть соотнесены с использованием или приобретением системы.
-> - Группа функциональных требований
->   - Бизнес-требования (Business Requirements) – определяют высокоуровневые цели организации или клиента (потребителя) – заказчика разрабатываемого программного обеспечения.
->  - Пользовательские требования (User Requirements) – описывают цели/задачи пользователей системы, которые должны достигаться/выполняться пользователями при помощи создаваемой программной системы. Эти требования часто представляют в виде вариантов использования (Use Cases).
->  - Функциональные требования (Functional Requirements) – определяют функциональность (поведение) программной системы, которая должна быть создана разработчиками для предоставления возможности выполнения пользователями своих обязанностей в рамках бизнес-требований и в контексте пользовательских требований.  
-> - Группа нефункциональных требований (Non-Functional Requirements)
->  - Бизнес-правила (Business Rules) – включают или связаны с корпоративными регламентами, политиками, стандартами, законодательными актами, внутрикорпоративными инициативами (например, стремление достичь зрелости процессов по CMMI 4-го уровня), учетными практиками, алгоритмами вычислений и т.д. На самом деле, достаточно часто можно видеть недостаточное внимание такого рода требованиям со стороны сотрудников ИТ-департаментов и, в частности, технических специалистов, вовлеченных в проект. Business Rules Group дает понимание бизнес-правила, как “положения, которые определяют или ограничивают некоторые аспекты бизнеса. Они подразумевают организацию структуры бизнеса, контролируют или влияют на поведение бизнеса”. Бизнес-правила часто определяют распределение ответственности в системе, отвечая на вопрос “кто будет осуществлять конкретный вариант, сценарий использования” или диктуют появление некоторых функциональных требований...
->  - Внешние интерфейсы (External Interfaces) – часто подменяются “пользовательским интерфейсом”. На самом деле вопросы организации пользовательского интерфейса безусловно важны в данной категории требований, однако, конкретизация аспектов взаимодействия с другими системами, операционной средой (например, запись в журнал событий операционной системы), возможностями мониторинга при эксплуатации – все это не столько функциональные требования (к которым ошибочно приписывают иногда такие характеристики), сколько вопросы интерфейсов, так как функциональные требования связаны непосредственно с функциональностью системы, направленной на решение бизнес-потребностей.
->  - Атрибуты качества (Quality Attributes) – описывают дополнительные характеристики продукта в различных “измерениях”, важных для пользователей и/или разработчиков. Атрибуты касаются вопросов портируемости, интероперабельности (прозрачности взаимодействия с другими системами), целостности, устойчивости и т.п.
->  - Ограничения (Constraints) – формулировки условий, модифицирующих требования или наборы требований, сужая выбор возможных решений по их реализации. В частности, к ним могут относиться параметры производительности, влияющие на выбор платформы реализации и/или развертывания (протоколы, серверы приложений, баз данных, ...), которые, в свою очередь, могут относиться, например, к внешним интерфейсам.
-> - Системные требования (System Requirements) – иногда классифицируются как составная часть группы функциональных требований (не путайте с как таковыми “функциональными требованиями”). Описывают высокоуровневые требования к программному обеспечению, содержащему несколько или много взаимосвязанных подсистем и приложений. При этом, система может быть как целиком программной, так и состоять из программной и аппаратной частей. В общем случае, частью системы может быть персонал, выполняющий определенные функции системы, например, авторизация выполнения определенных операций с использованием программно-аппаратных подсистем. 
+1.3 **Функциональные и нефункциональные требования (Functional and Non-functional Requirements)** – функциональные требования задают “что” система должна делать; нефункциональные – с соблюдением “каких условий” (например, скорость отклика при выполнении заданной операции).
 
-> 1.4. **Независимые свойства (Emergent Properties)** – эти свойства обозначают требования, которые адресованы к системе в целом, и не могут быть соотнесены с отдельнымы ее элементами. Т.е. данные требования относятся к тому синергетическому эффекту, которым может обладать такая система («целое больше, чем сумма его частей»). Примером может служить требования к «пропускной способности» коллцентра, которая будут зависеть от того, каким образом будут взаимодействовать коммуникационное оборудование, оператор и программное обеспечение в конкретных условиях.
+По мнению авторов, в определенной степени, систематизируя работы Вигерса, Лефингвелла и Видрига, Коберна, а также других экспертов, необходимо привести классификацию различных категорий (видов) требований и связанных с ними понятий, важнейших с точки зрения их понимания и дальнейшего практического применения:
+- Потребности (needs) – отражают проблемы бизнеса, персоналии или процесса, которые должны быть соотнесены с использованием или приобретением системы.
+- Группа функциональных требований
+  - Бизнес-требования (Business Requirements) – определяют высокоуровневые цели организации или клиента (потребителя) – заказчика разрабатываемого программного обеспечения.
+ - Пользовательские требования (User Requirements) – описывают цели/задачи пользователей системы, которые должны достигаться/выполняться пользователями при помощи создаваемой программной системы. Эти требования часто представляют в виде вариантов использования (Use Cases).
+ - Функциональные требования (Functional Requirements) – определяют функциональность (поведение) программной системы, которая должна быть создана разработчиками для предоставления возможности выполнения пользователями своих обязанностей в рамках бизнес-требований и в контексте пользовательских требований.  
+- Группа нефункциональных требований (Non-Functional Requirements)
+ - Бизнес-правила (Business Rules) – включают или связаны с корпоративными регламентами, политиками, стандартами, законодательными актами, внутрикорпоративными инициативами (например, стремление достичь зрелости процессов по CMMI 4-го уровня), учетными практиками, алгоритмами вычислений и т.д. На самом деле, достаточно часто можно видеть недостаточное внимание такого рода требованиям со стороны сотрудников ИТ-департаментов и, в частности, технических специалистов, вовлеченных в проект. Business Rules Group дает понимание бизнес-правила, как “положения, которые определяют или ограничивают некоторые аспекты бизнеса. Они подразумевают организацию структуры бизнеса, контролируют или влияют на поведение бизнеса”. Бизнес-правила часто определяют распределение ответственности в системе, отвечая на вопрос “кто будет осуществлять конкретный вариант, сценарий использования” или диктуют появление некоторых функциональных требований...
+ - Внешние интерфейсы (External Interfaces) – часто подменяются “пользовательским интерфейсом”. На самом деле вопросы организации пользовательского интерфейса безусловно важны в данной категории требований, однако, конкретизация аспектов взаимодействия с другими системами, операционной средой (например, запись в журнал событий операционной системы), возможностями мониторинга при эксплуатации – все это не столько функциональные требования (к которым ошибочно приписывают иногда такие характеристики), сколько вопросы интерфейсов, так как функциональные требования связаны непосредственно с функциональностью системы, направленной на решение бизнес-потребностей.
+ - Атрибуты качества (Quality Attributes) – описывают дополнительные характеристики продукта в различных “измерениях”, важных для пользователей и/или разработчиков. Атрибуты касаются вопросов портируемости, интероперабельности (прозрачности взаимодействия с другими системами), целостности, устойчивости и т.п.
+ - Ограничения (Constraints) – формулировки условий, модифицирующих требования или наборы требований, сужая выбор возможных решений по их реализации. В частности, к ним могут относиться параметры производительности, влияющие на выбор платформы реализации и/или развертывания (протоколы, серверы приложений, баз данных, ...), которые, в свою очередь, могут относиться, например, к внешним интерфейсам.
+- Системные требования (System Requirements) – иногда классифицируются как составная часть группы функциональных требований (не путайте с как таковыми “функциональными требованиями”). Описывают высокоуровневые требования к программному обеспечению, содержащему несколько или много взаимосвязанных подсистем и приложений. При этом, система может быть как целиком программной, так и состоять из программной и аппаратной частей. В общем случае, частью системы может быть персонал, выполняющий определенные функции системы, например, авторизация выполнения определенных операций с использованием программно-аппаратных подсистем. 
 
-> 1.5. **Требования с количественной оценкой (Quantifiable Requirements)** – требования, поддающиеся количественному определению/измерению, например, система должна обеспечить пропускную способность “столько-то запросов в секунду”; в то же самое время, крайне важно понимать, что постановка вопроса (то есть формулирование требования) в форме “система должна обеспечить рост пропускной способности” без указания конкретных количественных характеристик является просто некорректно определенным требованием.
+1.4. **Независимые свойства (Emergent Properties)** – эти свойства обозначают требования, которые адресованы к системе в целом, и не могут быть соотнесены с отдельнымы ее элементами. Т.е. данные требования относятся к тому синергетическому эффекту, которым может обладать такая система («целое больше, чем сумма его частей»). Примером может служить требования к «пропускной способности» коллцентра, которая будут зависеть от того, каким образом будут взаимодействовать коммуникационное оборудование, оператор и программное обеспечение в конкретных условиях.
 
-> По мнению авторов, при этом, например, требование “система должна вести журнал подключений пользователей” может и должно детализироваться с точки зрения описания информации, которую необходимо сохранять в журнале, однако, такое требование уже не будет являться количественным требованием. А требование с формулировкой “система должна обладать интуитивно-понятным пользовательским интерфейсом” - непроверяем... Может ли такое требование быть переформулировано и/или детализировано для адекватности интерпретации? Да. Например, так – средний показатель ошибок оператора не должен превышать 2% от объема вводимой информации и 85% пользователей должны дать положительную оценку прототипу пользовательского интерфейса на этапе опытной эксплуатации.
+1.5. **Требования с количественной оценкой (Quantifiable Requirements)** – требования, поддающиеся количественному определению/измерению, например, система должна обеспечить пропускную способность “столько-то запросов в секунду”; в то же самое время, крайне важно понимать, что постановка вопроса (то есть формулирование требования) в форме “система должна обеспечить рост пропускной способности” без указания конкретных количественных характеристик является просто некорректно определенным требованием.
 
-> Такие требования должны однозначно отвечать на вопросы, предполагающие ответы с численными величинами – как часто? насколько быстро? в каком количестве? и т.п. 
+По мнению авторов, при этом, например, требование “система должна вести журнал подключений пользователей” может и должно детализироваться с точки зрения описания информации, которую необходимо сохранять в журнале, однако, такое требование уже не будет являться количественным требованием. А требование с формулировкой “система должна обладать интуитивно-понятным пользовательским интерфейсом” - непроверяем... Может ли такое требование быть переформулировано и/или детализировано для адекватности интерпретации? Да. Например, так – средний показатель ошибок оператора не должен превышать 2% от объема вводимой информации и 85% пользователей должны дать положительную оценку прототипу пользовательского интерфейса на этапе опытной эксплуатации.
 
-> Большинство требований с количественной оценкой относится к атрибутам качества.  В качестве примера можно привести  реальное требование, присутствующее в реальном проекте по электронному документообороту: “Система должна производить поиск документов <определенного вида> за время, не превышающее 5 секунд”. Это типичное требование с количественной оценкой, в котором определена верхняя граница диапазона времени, за которое должен быть осуществлен поиск документов. Несомненно, этот атрибут качества системы существует в контексте определенного функционального требования о возможности поиска документов по определенным критериям. И этот контекст или связь должна быть определена либо явно, в рамках иерархии требований, либо посредством трассировки, между требованиями разных видов (функционального и атрибута качества). Примечательно, что Вигерс в своей книге выделяет требования по производительности системы в отдельный вид требований, тем не менее входящих в понятие нефункциональных требований или атрибутов качества.
+Такие требования должны однозначно отвечать на вопросы, предполагающие ответы с численными величинами – как часто? насколько быстро? в каком количестве? и т.п. 
 
-> **1.6 Системные требования и программные требования (System Requirements and Software Requirements)** – данное разделение базируется на определении “системы”, данном INCOSE (International Council on Systems Engineering) “комбинация взаимодействующих элементов <созданная> для достижения определенных целей; может включать аппаратные средства, программное обеспечение, встроенное ПО, другие средства, людей, информацию, техники (подходы), службы и другие поддерживающие элементы”; таким образом, подразумевается, что система является более ѐмким понятием, чем программное обеспечения и включает окружение, в котором функционирует ПО, как таковое; отсюда, естественным образом, вытекают требования к системе в целом и программному обеспечению (или программной системе), в частности. Часто в литературе по управлению требованиями встречается описание системных требований как “пользовательских требований” (user requirements), SWEBOK ограничивает применение понятия “пользовательское требование” требованиями к системе конечных пользователей/заказчиков. Системные требования по SWEBOK, в свою очередь, окружают пользовательские требования (или требования других заинтересованных лиц – stakeholders, например, регулирование полномочий) без указания идентифицируемого источника-человека.  
+Большинство требований с количественной оценкой относится к атрибутам качества.  В качестве примера можно привести  реальное требование, присутствующее в реальном проекте по электронному документообороту: “Система должна производить поиск документов <определенного видаза время, не превышающее 5 секунд”. Это типичное требование с количественной оценкой, в котором определена верхняя граница диапазона времени, за которое должен быть осуществлен поиск документов. Несомненно, этот атрибут качества системы существует в контексте определенного функционального требования о возможности поиска документов по определенным критериям. И этот контекст или связь должна быть определена либо явно, в рамках иерархии требований, либо посредством трассировки, между требованиями разных видов (функционального и атрибута качества). Примечательно, что Вигерс в своей книге выделяет требования по производительности системы в отдельный вид требований, тем не менее входящих в понятие нефункциональных требований или атрибутов качества.
 
-> 3.0. Извлечение требований (Requirements Elicitation)
+**1.6 Системные требования и программные требования (System Requirements and Software Requirements)** – данное разделение базируется на определении “системы”, данном INCOSE (International Council on Systems Engineering) “комбинация взаимодействующих элементов <созданнаядля достижения определенных целей; может включать аппаратные средства, программное обеспечение, встроенное ПО, другие средства, людей, информацию, техники (подходы), службы и другие поддерживающие элементы”; таким образом, подразумевается, что система является более ѐмким понятием, чем программное обеспечения и включает окружение, в котором функционирует ПО, как таковое; отсюда, естественным образом, вытекают требования к системе в целом и программному обеспечению (или программной системе), в частности. Часто в литературе по управлению требованиями встречается описание системных требований как “пользовательских требований” (user requirements), SWEBOK ограничивает применение понятия “пользовательское требование” требованиями к системе конечных пользователей/заказчиков. Системные требования по SWEBOK, в свою очередь, окружают пользовательские требования (или требования других заинтересованных лиц – stakeholders, например, регулирование полномочий) без указания идентифицируемого источника-человека.  
 
-> Один из ключевых принципов программной инженерии заключается в обеспечении взаимодействия между пользователями и инженерами. Прежде, чем начинается разработка программного обеспечения, именно специалисты “по требованиям” – аналитики перекидывают тот самый “мостик” между заказчиками и исполнителями, который задает тот уровень коммуникаций и взаимопонимания между ними, который необходим для решения задач проекта.
+3.0. Извлечение требований (Requirements Elicitation)
 
-> 3.2. Техники извелечения требований
+Один из ключевых принципов программной инженерии заключается в обеспечении взаимодействия между пользователями и инженерами. Прежде, чем начинается разработка программного обеспечения, именно специалисты “по требованиям” – аналитики перекидывают тот самый “мостик” между заказчиками и исполнителями, который задает тот уровень коммуникаций и взаимопонимания между ними, который необходим для решения задач проекта.
 
-> Идентифицировав источники требований мы не должны “покоится на лаврах”. Даже обладая пониманием того, кто владеет необходимой информацией, мы далеко не застрахованы от проблем, связанных с получением требований, необходимых для дальнейшей работы. Осуществление своей профессиональной деятельности пользователями далеко не гарантирует, к сожалению, способность ясно, четко и однозначно сформулировать то, что они делают и что именно им необходимо для решения их задач сегодня и завтра. Во многом, поэтому, сбор  требований, зачастую, превращается в столь тяжелый и часто порождающий конфликты процесс действительно извлечения, “вытаскивания” информации, без которой невозможно переходить к дальнейшим проектным работам. Недопонимание между аналитиком и пользователем, упущение тех или иных аспектов, на первый взгляд кажущихся второстепенными, неоднозначность или тем более некорректность интерпретации информации, полученных от пользователей – все это наиболее типичные причины “сверх-затрат” (времени, денег и т.п.), а иногда, и полного провала проектов.  Существует множество практик и подходов, позволяющих добиться действительно стройной системы требований, отвечающих реальным потребностям и приоритетам заказчиков. Среди них можно выделить следующие:
+3.2. Техники извелечения требований
 
-> - Интервьюрирование – традиционный подход извлечения требований; не стоит забывать, что получение информации от пользователя “не равно” получению требований; информация должна быть проанализирована и трансформирована в требования, таким образом, информация от пользователя является “входом” в процессы сбора требований, а сами требования – “выходом” этих процессов;
-> - Сценарии – контекст для сбора пользовательских требований, определяющий ответы на вопросы “что если” и “как это делается” в отношении бизнес-процессов, реализуемых  пользователями;
-> - Прототипы – отличный инструмент для уточнения и/или детализации требований; существуют разные подходы к прототипированию – от “бумажных” моделей до пилотных подсистем, реализуемых как самостоятельные (в терминах управления ресурсами) проекты или бета-версии продуктов; часто прототипы постепенно трансформируются в результаты проекта и используются для проверки и утверждения требований;
-> - “Разъясняющие встречи” - в оригинале звучит как “facilitated meetings”; достаточно емкий по смыслу термин, пришедший из общей практики менеджмента и базирующийся на идеях сотрудничества заинтересованных лиц для совместного анализа путей решения проблем, определения и предупреждения рисков и т.п. В отличие от “обычного”, с позволения сказать, “мозгового штурма”, как исключительной формы обсуждения тех или иных задач (часто в критические моменты работ над проектом), “запланированный мозговой штурм” – особая форма встреч участников проекта и заинтересованных лиц со стороны заказчика, посвященная обсуждению тех вопросов, ответы на которые не могут быть определены в результате обычных интервью и которые требуют вовлечения большего количества лиц, чем просто пары “пользователь-аналитик”; я позволили себе сконструировать на русском языке этот термин еще и как “запланированный мозговой штурм”, так как такого рода встречи действительно обычно планируются с заданной периодичностью для обеспечения однозначности интерпретации информации, значимой для проекта и, что очень важно – проведения таких встреч до того, как связанные с данными вопросами риски не превратились в реальные проблемы, требующие решения “вчера”, а, следовательно, и дополнительных (изначально незапланированных) ресурсов времени, денег и т.д.;
-> - Наблюдение (observation) – подразумевает непосредственное присутствие аналитиков и инженеров рядом с пользователем в процессе выполнения последним его работ по обеспечению функционирования бизнес-процессов: в определенной степени можно провести аналогию с практикой присутствия представителя заказчика в проектной группе исполнителя ( типовая практика в eXtreme Programming “on-site customer” – “присутствующий заказчик”); данная техника является достаточно затратной, но, в то же время, очень эффективной, а иногда – просто незаменимой, особенно, если речь идет о достаточно сложных и взаимосвязанных бизнес-процессах.
+Идентифицировав источники требований мы не должны “покоится на лаврах”. Даже обладая пониманием того, кто владеет необходимой информацией, мы далеко не застрахованы от проблем, связанных с получением требований, необходимых для дальнейшей работы. Осуществление своей профессиональной деятельности пользователями далеко не гарантирует, к сожалению, способность ясно, четко и однозначно сформулировать то, что они делают и что именно им необходимо для решения их задач сегодня и завтра. Во многом, поэтому, сбор  требований, зачастую, превращается в столь тяжелый и часто порождающий конфликты процесс действительно извлечения, “вытаскивания” информации, без которой невозможно переходить к дальнейшим проектным работам. Недопонимание между аналитиком и пользователем, упущение тех или иных аспектов, на первый взгляд кажущихся второстепенными, неоднозначность или тем более некорректность интерпретации информации, полученных от пользователей – все это наиболее типичные причины “сверх-затрат” (времени, денег и т.п.), а иногда, и полного провала проектов.  Существует множество практик и подходов, позволяющих добиться действительно стройной системы требований, отвечающих реальным потребностям и приоритетам заказчиков. Среди них можно выделить следующие:
 
-> Существуют и другие, достаточно эффективные практики, описание которых можно найти в литературе и которые вы, наверняка, сами используете в своей работе (например, Requirements Workshop, Role Playing, Storyobarding и т.п.). Некоторые из них будут также упоминаться в контексте конкретных методологий. 
+- Интервьюрирование – традиционный подход извлечения требований; не стоит забывать, что получение информации от пользователя “не равно” получению требований; информация должна быть проанализирована и трансформирована в требования, таким образом, информация от пользователя является “входом” в процессы сбора требований, а сами требования – “выходом” этих процессов;
+- Сценарии – контекст для сбора пользовательских требований, определяющий ответы на вопросы “что если” и “как это делается” в отношении бизнес-процессов, реализуемых  пользователями;
+- Прототипы – отличный инструмент для уточнения и/или детализации требований; существуют разные подходы к прототипированию – от “бумажных” моделей до пилотных подсистем, реализуемых как самостоятельные (в терминах управления ресурсами) проекты или бета-версии продуктов; часто прототипы постепенно трансформируются в результаты проекта и используются для проверки и утверждения требований;
+- “Разъясняющие встречи” - в оригинале звучит как “facilitated meetings”; достаточно емкий по смыслу термин, пришедший из общей практики менеджмента и базирующийся на идеях сотрудничества заинтересованных лиц для совместного анализа путей решения проблем, определения и предупреждения рисков и т.п. В отличие от “обычного”, с позволения сказать, “мозгового штурма”, как исключительной формы обсуждения тех или иных задач (часто в критические моменты работ над проектом), “запланированный мозговой штурм” – особая форма встреч участников проекта и заинтересованных лиц со стороны заказчика, посвященная обсуждению тех вопросов, ответы на которые не могут быть определены в результате обычных интервью и которые требуют вовлечения большего количества лиц, чем просто пары “пользователь-аналитик”; я позволили себе сконструировать на русском языке этот термин еще и как “запланированный мозговой штурм”, так как такого рода встречи действительно обычно планируются с заданной периодичностью для обеспечения однозначности интерпретации информации, значимой для проекта и, что очень важно – проведения таких встреч до того, как связанные с данными вопросами риски не превратились в реальные проблемы, требующие решения “вчера”, а, следовательно, и дополнительных (изначально незапланированных) ресурсов времени, денег и т.д.;
+- Наблюдение (observation) – подразумевает непосредственное присутствие аналитиков и инженеров рядом с пользователем в процессе выполнения последним его работ по обеспечению функционирования бизнес-процессов: в определенной степени можно провести аналогию с практикой присутствия представителя заказчика в проектной группе исполнителя ( типовая практика в eXtreme Programming “on-site customer” – “присутствующий заказчик”); данная техника является достаточно затратной, но, в то же время, очень эффективной, а иногда – просто незаменимой, особенно, если речь идет о достаточно сложных и взаимосвязанных бизнес-процессах.
 
-> 4.0. Анализ Требований
+Существуют и другие, достаточно эффективные практики, описание которых можно найти в литературе и которые вы, наверняка, сами используете в своей работе (например, Requirements Workshop, Role Playing, Storyobarding и т.п.). Некоторые из них будут также упоминаться в контексте конкретных методологий. 
 
-> 4.1. Классификация требований (Requirements Classification).
+4.0. Анализ Требований
 
-> Требования могут классифицироваться по целому ряду параметров, например:
-> - Функциональные и нефункциональные требования
-> - Внутренние (с другими требованиями) или внешние зависимости
-> - Требования к процессу или продукту
-> - Приоритет требований
-> - Содержание требований в отношении конкретных подсистем создаваемого программного обеспечения
-> - Изменяемость/стабильность требований.
+4.1. Классификация требований (Requirements Classification).
 
-«_Верификация программного обеспечения_», Сергей Владимирович Синицын, Никита Юрьевич Налютин. МИФИ, Курс лекций, 2006, 16 страница:
+Требования могут классифицироваться по целому ряду параметров, например:
+- Функциональные и нефункциональные требования
+- Внутренние (с другими требованиями) или внешние зависимости
+- Требования к процессу или продукту
+- Приоритет требований
+- Содержание требований в отношении конкретных подсистем создаваемого программного обеспечения
+- Изменяемость/стабильность требований.
 
-> 2.4.1. Тест-требования как основной источник информации для создания тестовых примеров
+### «_Верификация программного обеспечения_»
 
-> Основным источником информации для создания тестовых примеров является различного рода документация на систему, например, функциональные требования и требования к интерфейсу.
+Сергей Владимирович Синицын, Никита Юрьевич Налютин. МИФИ, Курс лекций, 2006, 16 страница:
 
-> Функциональные требования описывают поведение системы, как «черного ящика», т.е. исключительно с позиций того, что должна делать система в различных ситуациях. Иными словами, функциональные требования определяют реакцию системы на различные входные воздействия.
+2.4.1. Тест-требования как основной источник информации для создания тестовых примеров
 
-> Например, функциональные требования на программный модуль, рассчитывающий и проверяющий контрольную сумму для записи могут выглядеть следующим образом:
+Основным источником информации для создания тестовых примеров является различного рода документация на систему, например, функциональные требования и требования к интерфейсу.
 
-> **Функциональные требования на модуль расчета и проверки контрольной суммы**
+Функциональные требования описывают поведение системы, как «черного ящика», т.е. исключительно с позиций того, что должна делать система в различных ситуациях. Иными словами, функциональные требования определяют реакцию системы на различные входные воздействия.
 
-> **Внешний интерфейс модуля**
+Например, функциональные требования на программный модуль, рассчитывающий и проверяющий контрольную сумму для записи могут выглядеть следующим образом:
 
-> 1. **Структура record_type**
+**Функциональные требования на модуль расчета и проверки контрольной суммы**
+
+**Внешний интерфейс модуля**
+
+1. **Структура record_type**
 ```
 struct record_type
 {
@@ -354,86 +360,94 @@ bool A;
    double D[1];
 }
 ```
-> 2. Переменная Empty
+2. Переменная Empty
 ```
 bool Empty;
 ```
-> 3. Функция подсчета контрольной суммы записи Set_CRC
+3. Функция подсчета контрольной суммы записи Set_CRC
 ```
 void Set_CRC(record_type record);
 ```
-> **Вход**: 
-> Запись record, c неопределенным значением поля CRC. 
-> **Выход**: 
-> Запись record, с вычисленным по заданным правилам значение поля CRC. Переменная Empty.
+**Вход**: 
+Запись record, c неопределенным значением поля CRC. 
+**Выход**: 
+Запись record, с вычисленным по заданным правилам значение поля CRC. Переменная Empty.
 4. Функция проверки контрольной суммы записи Сheck_CRC
 ```
 bool Check_CRC(record_type record);
 ```
-> **Вход**: 
-> Запись Rec_Mess c определенным значением поля CRC.
-> **Выход**: 
-> Возвращаемое значение true или false. Переменная Empty.
+**Вход**: 
+Запись Rec_Mess c определенным значением поля CRC.
+**Выход**: 
+Возвращаемое значение true или false. Переменная Empty.
 
-> **Функциональные требования**:
+**Функциональные требования**:
 
->> 1. **Инициализация модуля**
+1. **Инициализация модуля**
 
->>  При инициализации модуля переменная Empty должна быть установлена в значение TRUE.
+При инициализации модуля переменная Empty должна быть установлена в значение TRUE.
 
->> 2. **Подсчет контрольной суммы записи**
->> a. **Расчет контрольной суммы**
->> Процедура Set_CRC должна производить подсчет контрольной суммы записи Rec_Mess по алгоритму CRC32. При подсчете контрольной суммы значение поля CRC не должно участвовать в суммировании. На основании произведенных расчетов должно быть вычислено и определено значение поля CRC таким образом, чтобы при подсчете контрольной суммы вместе с установленным значением этого поля контрольная сумма равнялась нулю.
->> b. **Установка значения переменной Empty**
-> Если все байты полей записи (кроме возможно CRC поля) имеют нулевое значение (код 00000000B), то значение переменной Empty должно быть установлено в TRUE.
+2. **Подсчет контрольной суммы записи**
 
->> 3. **Проверка контрольной суммы записи**
->> a. **Проверка контрольной суммы**
-> Процедура должна вычислять по заданному алгоритму CRC32 контрольную сумму записи Rec_Mess. Возвращаемое процедурой значение должно быть равно TRUE, если подсчитанное значение равно нулю. При не нулевом значении, подсчитанной контрольной суммы, должно возвращаться значение FALSE.
->> b. **Установка значения переменной Empty**
->> Если все байты полей записи, включая значение CRC поля, имеют нулевое значение (код 00000000B), то значение переменной Empty должно быть установлено в TRUE.
-> Еcли хотя бы один байт записи не нулевой, то значение переменной Empty должно быть установлено в FALSE.
+a. **Расчет контрольной суммы**
+Процедура Set_CRC должна производить подсчет контрольной суммы записи Rec_Mess по алгоритму CRC32. При подсчете контрольной суммы значение поля CRC не должно участвовать в суммировании. На основании произведенных расчетов должно быть вычислено и определено значение поля CRC таким образом, чтобы при подсчете контрольной суммы вместе с установленным значением этого поля контрольная сумма равнялась нулю.
 
-> Начальный этап работы тестировщика заключается в формировании тест-требований, соответствующих функциональным требованиям. Основная цель тест-требований – определить, какая функциональность системы должна быть протестирована. В самом простом случае одному функциональному требованию соответствует одно тест- требование. Однако чаще всего тест-требования детализируют формулировки функциональных требований.
+b. **Установка значения переменной Empty**
+Если все байты полей записи (кроме возможно CRC поля) имеют нулевое значение (код 00000000B), то значение переменной Empty должно быть установлено в TRUE.
 
-> Тест-требования определяют, что должно быть протестировано, но не определяют, как это должно быть сделано. Например, для перечисленных выше функциональных требований можно сформулировать следующие тест-требования:
+3. **Проверка контрольной суммы записи**
 
-> Тест-требования:
->> 1. **Проверка инициализация модуля**
->> Проверить, что начальное значение переменной Empty установлено TRUE.
+a. **Проверка контрольной суммы**
 
->> 2. **Проверка подсчета контрольной суммы**
->> a. Проверить, что в процедуре Set_CRC вычисление контрольной суммы производится по правилам алгоритма CRC32, как определено в секции 2a функциональных требований.
->> b. Проверить, что вычисленное значение контрольной суммы не зависит от начального значения поля CRC.
->> c. Проверить, что вычисленное значение контрольной суммы не зависит от значений байт выравнивания полей записи.
->> d. Проверить, что значение переменной Empty устанавливается при каждом вызове функции Set_CRC в зависимости от значений полей записи, как определено в секции 2b функциональных требований.
+Процедура должна вычислять по заданному алгоритму CRC32 контрольную сумму записи Rec_Mess. Возвращаемое процедурой значение должно быть равно TRUE, если подсчитанное значение равно нулю. При не нулевом значении, подсчитанной контрольной суммы, должно возвращаться значение FALSE.
 
->> 3. **Проверка процедуры Check_CRC**
->> a. Проверить, что при обращении к процедуре Check_CRC вычисление контрольной суммы производится по правилам алгоритма CRC32, как определено в секции 3a функциональных требований.
->> b. Проверить, что возвращаемое значение равно TRUE если конитрольная сумма проверяемой записи правильная и FALSE в противном случае.
->> c. Проверить, что проверка правильности значения контрольной суммы не зависит от значений байт выравнивания полей записи.
->> d. Проверить, что значение переменной Empty устанавливается при каждом вызове функции Check_CRC в зависимости от значений полей записи, как определено в секции 3b функциональных требований.
+b. **Установка значения переменной Empty**
 
-> Особенности реализации тестового окружение и конкретные значения, подаваемые на вход системы и ожидаемые на ее выходе определяются тестовыми примерами. Одному тест-требованию соответствует как минимум один тестовый пример.
+Если все байты полей записи, включая значение CRC поля, имеют нулевое значение (код 00000000B), то значение переменной Empty должно быть установлено в TRUE.
+Еcли хотя бы один байт записи не нулевой, то значение переменной Empty должно быть установлено в FALSE.
 
-«_Основы инженерии качества программных систем_», **Филипп Андон, Галина Коваль, Татьяна Коротун, Екатерина Лаврищева, В. Суслов**, Академпериодика, 2007. 300 страница:
+Начальный этап работы тестировщика заключается в формировании тест-требований, соответствующих функциональным требованиям. Основная цель тест-требований – определить, какая функциональность системы должна быть протестирована. В самом простом случае одному функциональному требованию соответствует одно тест- требование. Однако чаще всего тест-требования детализируют формулировки функциональных требований.
 
-> Спецификация требований к ПО в SWEBOK трактуется как процесс формализованного описания функциональных и нефункциональных требований к ПО и характеристикам его качества в документе спецификации требований, структура и содержание которого регламентируется стандартом, утвержденным для использования в проекте, например, IEEE Std. 830:1998 «Рекомендованные приемы спецификации требований к ПО».
+Тест-требования определяют, что должно быть протестировано, но не определяют, как это должно быть сделано. Например, для перечисленных выше функциональных требований можно сформулировать следующие тест-требования:
+
+Тест-требования:
+1. **Проверка инициализация модуля**
+Проверить, что начальное значение переменной Empty установлено TRUE.
+
+2. **Проверка подсчета контрольной суммы**
+a. Проверить, что в процедуре Set_CRC вычисление контрольной суммы производится по правилам алгоритма CRC32, как определено в секции 2a функциональных требований.
+b. Проверить, что вычисленное значение контрольной суммы не зависит от начального значения поля CRC.
+c. Проверить, что вычисленное значение контрольной суммы не зависит от значений байт выравнивания полей записи.
+d. Проверить, что значение переменной Empty устанавливается при каждом вызове функции Set_CRC в зависимости от значений полей записи, как определено в секции 2b функциональных требований.
+
+3. **Проверка процедуры Check_CRC**
+a. Проверить, что при обращении к процедуре Check_CRC вычисление контрольной суммы производится по правилам алгоритма CRC32, как определено в секции 3a функциональных требований.
+b. Проверить, что возвращаемое значение равно TRUE если конитрольная сумма проверяемой записи правильная и FALSE в противном случае.
+c. Проверить, что проверка правильности значения контрольной суммы не зависит от значений байт выравнивания полей записи.
+d. Проверить, что значение переменной Empty устанавливается при каждом вызове функции Check_CRC в зависимости от значений полей записи, как определено в секции 3b функциональных требований.
+
+Особенности реализации тестового окружение и конкретные значения, подаваемые на вход системы и ожидаемые на ее выходе определяются тестовыми примерами. Одному тест-требованию соответствует как минимум один тестовый пример.
+
+### «_Основы инженерии качества программных систем_»
+
+**Филипп Андон, Галина Коваль, Татьяна Коротун, Екатерина Лаврищева, В. Суслов**, Академпериодика, 2007. 300 страница:
+
+Спецификация требований к ПО в SWEBOK трактуется как процесс формализованного описания функциональных и нефункциональных требований к ПО и характеристикам его качества в документе спецификации требований, структура и содержание которого регламентируется стандартом, утвержденным для использования в проекте, например, IEEE Std. 830:1998 «Рекомендованные приемы спецификации требований к ПО».
 
 Стандартный глоссарий терминов, используемых в тестировании программного обеспечения. Версия 2.3 (от 9 июля 2014 года), International Software Testing Qualifications Board, ред. пер. Александр Александров. 50, 51, 63 страницы:
 
-> **Спецификация (specification)**: Документ, описывающий (в идеале - исчерпывающе, однозначно и доступно) требования, дизайн, поведение или иные характеристики компонента или системы. Зачастую в спецификацию включаются процедуры контроля исполнения.
+**Спецификация (specification)**: Документ, описывающий (в идеале - исчерпывающе, однозначно и доступно) требования, дизайн, поведение или иные характеристики компонента или системы. Зачастую в спецификацию включаются процедуры контроля исполнения.
 
-> **Спецификация компонента (component specification)**: Описание функций компонента в терминах его выходных значений для заданных входных значений при определенных условиях, а также требуемого нефункционального поведения (например, использование ресурсов).
+**Спецификация компонента (component specification)**: Описание функций компонента в терминах его выходных значений для заданных входных значений при определенных условиях, а также требуемого нефункционального поведения (например, использование ресурсов).
 
-> **Спецификация проектирования теста (test design specification)**: Документ, описывающий тестовое условие (элементы покрытия) для элемента тестирования, детализованный подход к тестированию, и идентифицирующий соответствующие тестовые сценарии высокого уровня. [IEEE 829] См. также спецификация теста. 
+**Спецификация проектирования теста (test design specification)**: Документ, описывающий тестовое условие (элементы покрытия) для элемента тестирования, детализованный подход к тестированию, и идентифицирующий соответствующие тестовые сценарии высокого уровня. [IEEE 829] См. также спецификация теста. 
 
-> **Спецификация процедуры тестирования (test procedure specification)**: Документ, описывающий последовательность действий при выполнении теста. Также известен как ручной сценарий тестирования. [IEEE 829] См. также 
+**Спецификация процедуры тестирования (test procedure specification)**: Документ, описывающий последовательность действий при выполнении теста. Также известен как ручной сценарий тестирования. [IEEE 829] См. также 
 
-> **Спецификация теста (test specification)**: Документ, состоящий из спецификации проектирования теста, спецификации тестовых сценариев и/или спецификации процедуры тестирования. 
+**Спецификация теста (test specification)**: Документ, состоящий из спецификации проектирования теста, спецификации тестовых сценариев и/или спецификации процедуры тестирования. 
 
-> **Спецификация тестовых сценариев (test case specification)**: Документ, описывающий комплект тестовых сценариев - цель, входы, тестовые операции, ожидаемые результаты и предусловия выполнения для объекта тестирования. [IEEE 829] См. также спецификация теста. 
+**Спецификация тестовых сценариев (test case specification)**: Документ, описывающий комплект тестовых сценариев - цель, входы, тестовые операции, ожидаемые результаты и предусловия выполнения для объекта тестирования. [IEEE 829] См. также спецификация теста. 
 
-> **Требование (requirement)**: Условия или возможности, необходимые пользователю для решения определенных задач или достижения определенных целей, которые должны быть достигнуты для выполнения контракта, стандартов, спецификации, или других формальных документов. [IEEE 610]
+**Требование (requirement)**: Условия или возможности, необходимые пользователю для решения определенных задач или достижения определенных целей, которые должны быть достигнуты для выполнения контракта, стандартов, спецификации, или других формальных документов. [IEEE 610]
 
 07.12.2017. Перейти на [Главную страницу](./)
