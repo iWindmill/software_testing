@@ -14,6 +14,7 @@
 * [Принципы тестирования программного обеспечения](/2017-07-30-principles-of-software-testing.md)
 * [Обоснование потребности в тестировании](2017-05-25-need-for-testing.md)
 * [Классические и современные определения дефекта \(бага\)](2017-07-09-definition-of-the-defect-software.md)
+* [Виды требований к программным средствам](2017-12-07-requirements-and-specifications-concept-types-and-content.md)
 * [Навыки и компетенции в области обеспечения качества](2018-02-15-skills-and-competences-in-the-field-of-quality-assurance.md)
 
 Место тестирования в жизненном цикле разработки программного обеспечения
