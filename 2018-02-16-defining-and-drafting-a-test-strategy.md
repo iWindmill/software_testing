@@ -104,4 +104,39 @@
 
 В силу кроссфункциональности команды значительного вклада в повышение качества можно ожидать от аудита кода, совмещённого с ручным тестированием по методу белого ящика. Автоматизация тестирования кода не будет применяться в силу крайне ограниченного времени.
 
+### Managing the Testing Process: Practical Tools and Techniques for Managing Hardware and Software Testing Rex Black
+
+Издательство Wiley Publishing, 2002 год. 47- страница про "A test Plan Template" со структурой:
+
+1. Overview
+2. Bounds
+3. Scope
+4. Definitions
+5. Setting
+6. Quality Risks
+7. Proposed Schedule of Milestones Transitions
+8. Entry Criteria
+9. Stopping Criteria
+10. Exit Criteria
+11. Test Configurations and Environments
+12. Test System Development
+13. Test Execution
+14. Key Participants
+15. Test Case and Bug Tracking
+16. Bug Isolation and Classification
+17. Release Management
+18. Test Cycles
+19. Test Hours
+20. Risks and Contingencies Change History
+21. Referenced Documents
+22. Frequently Asked Questions
+
+…
+
+Table 2.2 An Extract of a Quality Risks Table:
+
+| QUALITY RISK CATEGORY | SERVER CONFIGURATION  | TEST STRATEGY                                            |
+| --------------------- | --------------------- | -------------------------------------------------------- |
+| Functionality         | Solaris/Oracle/Apache | Manual. Behavioral. Primarily scripted. Some exploratory |
+
 15.02.2018. Перейти на [Главную страницу](./)
