@@ -1,7 +1,4 @@
 <meta name="google-site-verification" content="wZ7jFu3GEXok3xG01-8W7Y7kqwt2_2gW21x1BYnjqko" />
-
-Обеспечение качества и тестирование. Вопросы и ответы по программам высших учебных заведений, ISTQB. Со ссылками на источники.
-
 Введение
 
 * [Учебные программы, экзаменационные вопросы по обеспечению качества](2016-08-14-educational-programs-exam-questions-and-literature.md)
