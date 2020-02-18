@@ -1,13 +1,12 @@
 theme: jekyll-theme-modernist
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
-url: http://almeln.ru
+url: http://amblg.ru
 author: Алексей Мельников
 email: alsermel@gmail.com
 aboutme: Привет. Меня зовут Мельников Алексей. На этом ресурсе собираю знания по тестированию и обеспечению качества. Делаю упор на рассмотрение заявленных тем с точек зрения как можно большего числа авторов
-description: "Хранилище текстов, отзывов и закладок о тестировании, обеспечении качества и литературе"
+description: "Алексей Мельников. Блог. Хранилище текстов и выдержек"
 keywords: "тестирование программного обеспечение, обеспечение качества, тестирование программ"
 google_analytics_key: UA-90371948-1]
 favicon:     "/images/favicon.ico"
-locale: ru_RU
 plugins:
   - jekyll-sitemap
