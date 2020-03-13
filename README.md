@@ -1,4 +1,7 @@
 <meta name="google-site-verification" content="wZ7jFu3GEXok3xG01-8W7Y7kqwt2_2gW21x1BYnjqko" />
+
+Материалы для подготовки к сертификаци International Software Testing Qualifications Board "Certified Tester Foundation Level".
+
 Введение
 
 * [Учебные программы, экзаменационные вопросы по обеспечению качества](2016-08-14-educational-programs-exam-questions-and-literature.md)
